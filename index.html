@@ -593,18 +593,34 @@
                 href="#"
                 >E15</a
               >
+            
             </div>
           </li>
         </ul>
+        
       </div>
+      <a class="navbar-brand" id="switchLabel"href="#">Mode</a>
+      
+        <label class="switch" >
+          
+          <input type="checkbox" checked id="switchButton">
+          <span class="slider round"></span>
+        </label>
+        
     </nav>
 
     <p>Spelling Sorcery</p>
     <div class="image"><img src="./photos/450px-Necromancer.jpg" /></div>
-
+<p id='modeLabel'>Practice Mode</p>
     <div class="lesson"><p id="lesson"></p></div>
+   
 
     <span id="span"></span>
+
+    <form  onsubmit="checkSpelling()" id="practiceInput" ><label id="right"></label><input autocomplete="off" id="input" onfocus="this.placeholder = ''" type="text" placeholder="spell the word"><input type="submit">
+
+
+    
 
     <script type="text/javascript" src="lists.js"></script>
     <script type="text/javascript" src="script.js"></script>
