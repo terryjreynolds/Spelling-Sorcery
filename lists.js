@@ -218,7 +218,7 @@ const lists = {
       "There is nothing better than homegrown tomatoes in a summer salad!",
     ],
     five: [
-      "oxen ",
+      "oxen",
       "The oxen were strong and healthy animals, so they fetched a high price at the market.",
     ],
     six: [
@@ -226,31 +226,31 @@ const lists = {
       "The school campus was so large that it actually had several addresses.",
     ],
     seven: [
-      "puppies ",
+      "puppies",
       "Newborn puppies must stay with their mother until they are old enough for adoption.",
     ],
     eight: [
-      "families ",
+      "families",
       "Every Sunday, the families would gather together and distribute food to the needy.",
     ],
     nine: [
-      "roofs ",
+      "roofs",
       "In many African village communities, people build simple homes with thatched roofs.",
     ],
     ten: [
-      "radios ",
+      "radios",
       "Radios emit unpleasant static if they cannot pick up a strong enough signal.",
     ],
     eleven: [
-      "potatoes ",
+      "potatoes",
       "Did you know there are more than 4,000 varieties of native potatoes in the world?",
     ],
     twelve: [
-      "geese ",
+      "geese",
       "My father always gets frustrated when the geese make a mess on the golf course.",
     ],
     thirteen: [
-      "loaves ",
+      "loaves",
       "The baker arranged the fresh loaves of bread in the display case to tempt customers.",
     ],
     fourteen: [

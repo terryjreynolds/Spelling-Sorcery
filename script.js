@@ -1,5 +1,7 @@
-  let correctSpelling = "";
+//global state variable for the current list word user selects
+let correctSpelling = "";
 
+//adjusts the app from practice to test mode
 toggleMode = (currentText) => {
   console.log("in toggleMode");
  
@@ -11,52 +13,52 @@ toggleMode = (currentText) => {
     modeLabel.innerHTML = "Practice Mode";
     document.getElementById("practiceInput").style.display = "flex";
     document.getElementById("modeLabel").style.color = "#1cf115"
+    setInitialFocus();
   }
 
-  console.log("modeButtonText", modeButtonText);
 };
-//event listener on the switch calls toggleMode which adjusts the label below the pic
+//event listener on the switch calls toggleMode which adjusts the label below the pic and 
+//provides a form field for inputs
 document.getElementById("switchButton").addEventListener("click", function () {
   let currentText = document.getElementById("modeLabel").innerHTML;
   toggleMode(currentText);
 });
 //when user presses a word button, value gets stored in state. On submit, the value is compared. If correct, flash a checkmark and restore the input. If incorrect flash an x and restore input with placeholder of spell the word.
 chooseSpellingList = (selectedList) => {
+  console.log({selectedList});
   console.log("chooseSpellingList", selectedList);
   changeButtonText(selectedList);
   makeDictationButtons(selectedList);
+  
 };
 
 changeButtonText = (newText) => {
   document.getElementById("lesson").innerHTML = newText;
 };
-
+//sets up form field for app start up
+setInitialFocus = () => {
+  document.getElementById("input").focus();
+  document.getElementById("input").setAttribute("placeholder", "Choose a number");
+}
+//dynamically constructs a list of buttons, one for each list word of list chosen
 makeDictationButtons = (currentList) => {
   let numButtons = Object.keys(lists[currentList]);
-  console.log("numbuttons", numButtons);
+
   //clear out any pre-existing buttons
   removeAllButtons();
+
   //find how many key value pairs in the spellinglist object and use that value to make that many buttons
   {
     numButtons.map((c, i) => insertButtons(c, i, currentList));
   }
+  setInitialFocus();
 };
+
 removeAllButtons = () => {
   document.getElementById("span").innerHTML = "";
 };
-
-
-
-    
-  
-
- 
+//populates the screen with a list of buttons for the chosen list
 insertButtons = (c, i, currentList) => {
-  console.log("c", c);
-  console.log("i", i);
-
-  console.log("currentList", currentList);
-
   if (
     document.getElementsByClassName("listButton").length <
     Object.keys(lists[currentList]).length
@@ -67,34 +69,56 @@ insertButtons = (c, i, currentList) => {
     const span = document.getElementById("span");
     span.appendChild(btn);
     btn.addEventListener("click", function () {
+      btn.style.color = "#1cf115";
       playAudio(c, currentList);
+           disableButtons();
+  disableInputs(); 
     });
   }
 };
 
 playAudio = (key, currentList) => {
-  disableButtons();
   const wordSentenceWord = lists[currentList][key];
   textToSpeech(wordSentenceWord);
- correctSpelling = wordSentenceWord[0];
+  //trimmed off whitespace to make sure the data was correct
+ correctSpelling = wordSentenceWord[0].trim();
 };
+
+setInputFocus = () => {
+  document.getElementById("input").focus();
+  document.getElementById("input").setAttribute("placeholder", "Spell the word");
+}
 
 textToSpeech = (utteranceArray) => {
-  let word = new SpeechSynthesisUtterance(utteranceArray[0]);
+  let word1= new SpeechSynthesisUtterance(utteranceArray[0]);
   let sentence = new SpeechSynthesisUtterance(utteranceArray[1]);
+  let word2= new SpeechSynthesisUtterance(utteranceArray[0]);
 
-  setTimeout(window.speechSynthesis.speak(word), 2000);
+  setTimeout(window.speechSynthesis.speak(word1), 2000);
   setTimeout(window.speechSynthesis.speak(sentence), 2000);
-  setTimeout(window.speechSynthesis.speak(word), 2000);
-  setTimeout(() => reactivateButtons(), 6100);
+  setTimeout(window.speechSynthesis.speak(word2), 2000);
+
+  word2.onend = function(e) {
+    reactivateButtons();
+    reactivateInputs();
+  setInputFocus();
+  }
 };
 
+disableInputs = () => {
+document.getElementById("input").disabled = true;
+document.getElementById("submitButton").disabled = true;
+}
+reactivateInputs = () => {
+document.getElementById("input").disabled = false;
+document.getElementById("submitButton").disabled = false;
+}
 disableButtons = () => {
   const listButtons = document.getElementsByClassName("listButton");
   console.log(document.getElementsByClassName("listButton"));
   for (const eachButton of listButtons) {
     eachButton.disabled = true;
-    console.log(eachButton);
+    // console.log(eachButton);
   }
 };
 
@@ -103,42 +127,36 @@ reactivateButtons = () => {
   console.log(document.getElementsByClassName("listButton"));
   for (const eachButton of listButtons) {
     eachButton.disabled = false;
-    console.log(eachButton);
+    eachButton.style.color = "black";
+    // console.log(eachButton);
   }
-
 };
 
+//handles user input. Displays got it if correct and try again if not
 checkSpelling = () => {
-
 const spelling = document.getElementById("input").value;
-
-console.log('spelling', spelling);
-console.log('correctSpelling', correctSpelling);
   if ( spelling == correctSpelling) {
     console.log('correct');
     const right = document.getElementById("right");
     right.style.display = "flex";
-    right.innerHTML = "✅"
+    right.innerHTML = "✅" 
+      document.getElementById('input').setAttribute("placeholder", "Got it!");
     setTimeout(function(){right.style.display = 'none';
-  document.getElementById("input").setAttribute("placeholder", "spell the word");
+  document.getElementById("input").setAttribute("placeholder", "Choose a number");
   }, 2000);
-  document.getElementById("practiceInput").reset();
-    //show check mark for 3s
-    //reset input field placeholder to respell or try another one
-    
+  document.getElementById("practiceInput").reset(); 
 
 }else {
  console.log('incorrect')
   const right = document.getElementById("right");
     right.style.display = "flex";
     right.innerHTML = "❌"
+    document.getElementById("input").style.borderColor = "red"
+    document.getElementById('input').setAttribute("placeholder", "Try again!");
     setTimeout(function(){right.style.display = 'none';
+    document.getElementById("input").style.borderColor = "#1cf115"
     }, 2000);
-    document.getElementById("input").setAttribute("placeholder", "try again");
   document.getElementById("practiceInput").reset();
- //show x for 3s
- //reset input field placeholder respell or try another one
-
 }
 }
 

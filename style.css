@@ -2,10 +2,25 @@ button {
   margin: 100px;
 }
 
+#pageTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3rem;
+  font-size: 2em;
+  font-weight: bold;
+}
+#brand {
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px #1cf115;
+}
 .image {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+img {
+  width: 35vw;
 }
 .lesson {
   display: flex;
@@ -17,6 +32,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 #practiceInput {
   display: flex;
@@ -24,10 +40,58 @@ span {
   justify-content: center;
   margin-top: 20px;
 }
+#input {
+  border-radius: 8px;
+  height: 5vh;
+  border-color: #1cf115;
+  outline: none;
+}
+#input:hover {
+  opacity: 0.7;
+}
+.listButton {
+  border-radius: 8px;
+  outline: none;
+  transition: ease-in;
+}
+.listButton:hover {
+  font-weight: bold;
+  opacity: 0.7;
+}
+#submitButton {
+  margin-left: 10px;
+  border-radius: 8px;
+  height: 5vh;
+  transition: ease-in;
+}
+#submitButton:hover {
+  font-weight: bold;
+  opacity: 0.7;
+}
 #modeButton {
   display: inline;
 }
+#modeLabel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #1cf115;
+  margin-top: 10px;
+}
 
+#right {
+  display: hidden;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 4vw;
+}
+#wrong {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+}
+/*-------------------------SlIDE MODE SWITCH----------------------------*/
 .switch {
   position: relative;
   display: inline-block;
@@ -93,23 +157,8 @@ input:checked + .slider:before {
   margin-right: 10px;
 }
 
-#modeLabel {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: #1cf115;
-}
-
-#right {
-  display: none;
-  flex-direction: row;
-  justify-content: center;
-}
-#wrong {
-  display: none;
-  flex-direction: row;
-  justify-content: center;
-}
-label {
-  margin-right: 10px;
+@media only screen and (max-width: 349px) {
+  #pageTitle {
+    padding-top: 5rem;
+  }
 }

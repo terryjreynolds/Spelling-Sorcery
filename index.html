@@ -50,8 +50,8 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Spelling Sorcery</a>
+    <nav class="navbar fixed-top navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <a class="navbar-brand" id="brand" href="#">Spelling Sorcery</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -609,17 +609,17 @@
         
     </nav>
 
-    <p>Spelling Sorcery</p>
-    <div class="image"><img src="./photos/450px-Necromancer.jpg" /></div>
+    <p id="pageTitle">Spelling Sorcery</p>
+    <div class="image"><img src="./photos/sorcery.jpg" /></div>
 <p id='modeLabel'>Practice Mode</p>
     <div class="lesson"><p id="lesson"></p></div>
    
 
     <span id="span"></span>
 
-    <form  onsubmit="checkSpelling()" id="practiceInput" ><label id="right"></label><input autocomplete="off" id="input" onfocus="this.placeholder = ''" type="text" placeholder="spell the word"><input type="submit">
-
-
+    <form  onsubmit="checkSpelling()" id="practiceInput" ><input autocomplete="off" id="input" onfocus="this.placeholder = ''" type="text" placeholder="spell the word"><input  type="submit" id="submitButton">
+    </form>
+<p id="right"></p>
     
 
     <script type="text/javascript" src="lists.js"></script>
