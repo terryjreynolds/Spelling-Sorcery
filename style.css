@@ -91,6 +91,20 @@ span {
   flex-direction: row;
   justify-content: center;
 }
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #888;
+  color: black;
+}
+.terryCopyright {
+  margin-bottom: 8px;
+}
+.photoCredit {
+  font-size: 0.5rem;
+}
 /*-------------------------SlIDE MODE SWITCH----------------------------*/
 .switch {
   position: relative;
