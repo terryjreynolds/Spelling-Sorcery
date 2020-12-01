@@ -68,6 +68,12 @@ span {
   font-weight: bold;
   opacity: 0.7;
 }
+#inputPin {
+  max-width: 100px;
+}
+#submitButton2 {
+  margin-right: 50px;
+}
 #modeButton {
   display: inline;
 }
@@ -77,6 +83,11 @@ span {
   justify-content: center;
   color: #1cf115;
   margin-top: 10px;
+}
+#locked {
+  display: none;
+  font-size: larger;
+  z-index: 1;
 }
 
 #right {
@@ -97,7 +108,7 @@ footer {
   text-align: center;
   width: 100%;
   background-color: #888;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .terryCopyright {
   margin-bottom: 8px;

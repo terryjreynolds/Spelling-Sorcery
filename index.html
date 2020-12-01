@@ -599,12 +599,14 @@
         </ul>
         
       </div>
-      <a class="navbar-brand" id="switchLabel"href="#">Mode</a>
+      <form action="#" onsubmit="lockPracticeMode();return false" id="lockcodeInput"><input placeholder="Enter pin" type="text" autocomplete="off" id="inputPin"><input type="submit" id="submitButton2"></form>
+      <a class="navbar-brand" id="switchLabel" href="#">Mode</a>
       
-        <label class="switch" >
+        <label class="switch" id="switchMode">
           
           <input type="checkbox" checked id="switchButton">
-          <span class="slider round"></span>
+          
+          <span class="slider round"><span id="locked">🔐</span></span>
         </label>
         
     </nav>
@@ -617,7 +619,7 @@
 
     <span id="span"></span>
 
-    <form  action="#" onsubmit="checkSpelling();return false" id="practiceInput" ><input autocomplete="off" id="input" onfocus="this.placeholder = ''" type="text" placeholder="spell the word"><input  type="submit" id="submitButton">
+    <form  action="#" onsubmit="checkSpelling();return false" id="practiceInput" ><input autocomplete="off" id="input" onfocus="this.placeholder = ''" type="text" placeholder="spell the word">
     </form>
 <p id="right"></p>
     <footer>

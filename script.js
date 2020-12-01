@@ -1,5 +1,7 @@
 //global state variable for the current list word user selects
 let correctSpelling = "";
+const actualLockCode = "1234";
+let lockStatus = "unlocked";
 
 //adjusts the app from practice to test mode
 toggleMode = (currentText) => {
@@ -131,7 +133,37 @@ reactivateButtons = () => {
     // console.log(eachButton);
   }
 };
+//function to check teacher passcode to lockout practice mode
+lockPracticeMode = () => {
+  const lockSymbol = document.getElementById('locked');
+ const lockcode = document.getElementById("inputPin").value;
+ const switchButton = document.getElementById("switchButton");
+ const inputPin = document.getElementById('inputPin');
+ console.log(switchMode);
+  console.log('lockPracticeMode', lockcode);
+  if (lockcode === actualLockCode) {
+    lockStatus === "unlocked" ? lockStatus = "locked" : lockStatus = "unlocked";
+    console.log(lockcode); 
+   inputPin.style.background = "#1cf115"
+   lockStatus === "locked" ? inputPin.setAttribute("placeholder", "Locked") : inputPin.setAttribute("placeholder", "Unlocked")
+   lockSymbol.style.display === "inline-block" ? lockSymbol.style.display = "none" : lockSymbol.style.display = "inline-block";
+   setTimeout(function(){inputPin.setAttribute("placeholder", "Enter Pin");
+  inputPin.style.background = "white";
+  }, 1200);
+    
+  switchButton.disabled === false ? switchButton.disabled = true : switchButton.disabled = false ;
 
+  }else {
+    const inputPin = document.getElementById('inputPin');
+    inputPin.style.background = "#f80606";
+    inputPin.setAttribute("placeholder", "Wrong Pin");
+    setTimeout(function(){inputPin.setAttribute("placeholder", "Enter Pin");
+  inputPin.style.background = "rgb(255, 255, 255)";
+
+  }, 1200);
+  }
+  document.getElementById("lockcodeInput").reset(); 
+}
 //handles user input. Displays got it if correct and try again if not
 checkSpelling = () => {
 
@@ -160,5 +192,7 @@ console.log('spelling', spelling);
     }, 2000);
    document.getElementById("practiceInput").reset();
 }
+
+
 }
 
