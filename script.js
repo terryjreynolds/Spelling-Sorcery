@@ -134,7 +134,9 @@ reactivateButtons = () => {
 
 //handles user input. Displays got it if correct and try again if not
 checkSpelling = () => {
+
 const spelling = document.getElementById("input").value;
+console.log('spelling', spelling);
   if ( spelling == correctSpelling) {
     console.log('correct');
     const right = document.getElementById("right");
@@ -144,7 +146,7 @@ const spelling = document.getElementById("input").value;
     setTimeout(function(){right.style.display = 'none';
   document.getElementById("input").setAttribute("placeholder", "Choose a number");
   }, 2000);
-  document.getElementById("practiceInput").reset(); 
+   document.getElementById("practiceInput").reset(); 
 
 }else {
  console.log('incorrect')
@@ -156,7 +158,7 @@ const spelling = document.getElementById("input").value;
     setTimeout(function(){right.style.display = 'none';
     document.getElementById("input").style.borderColor = "#1cf115"
     }, 2000);
-  document.getElementById("practiceInput").reset();
+   document.getElementById("practiceInput").reset();
 }
 }
 

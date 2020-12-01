@@ -26,6 +26,18 @@ const lists = {
     nine: ["only", "Kenneth is the only one who didn't come to the party"],
     ten: ["deep", "The deer wandered deep into the woods"],
   },
+  B9: {
+one: ["home", "There is no place like home."],
+    two: ["nose", "My nose feels cold."],
+    three: ["joke", "Suki likes to joke around with her friends."],
+    four: ["own", "I have my very own scooter."],
+    five: ["also", "Jayden likes to play chess, but he also likes checkers."],
+    six: ["boat", "Samara sailed a boat across the ocean."],
+    seven: ["goal", "Hailey scored the winning goal in the hockey game."],
+    eight: ["foam", "The new foam in my chair makes it extra soft."],
+    nine: ["snow", "I like to go sledding in the snow."],
+    ten: ["bowl", "I can't believe we ate the whole bowl of watermelon."],
+},
   C2: {
     one: ["wrench", "here is a sentence"],
     two: ["metal", "Stike the metal with your hammer"],
@@ -304,10 +316,15 @@ const lists = {
   },
 };
 
+
+
+
+
+
 //Shells for building out the word lists
 // C2: {
 // one: ["", ""],
-//     two: ["", ""],
+//     two: ["", "."],
 //     three: ["", ""],
 //     four: ["", ""],
 //     five: ["", ""],
@@ -315,7 +332,7 @@ const lists = {
 //     seven: ["", ""],
 //     eight: ["", ""],
 //     nine: ["", ""],
-//     ten: ["", ""],
+//     ten: ["", "."],
 // eleven: ["", ""],
 //     twelve: ["", ""],
 // thirteen: ["", ""],

@@ -617,20 +617,21 @@
 
     <span id="span"></span>
 
-    <form  onsubmit="checkSpelling()" id="practiceInput" ><input autocomplete="off" id="input" onfocus="this.placeholder = ''" type="text" placeholder="spell the word"><input  type="submit" id="submitButton">
+    <form  action="#" onsubmit="checkSpelling();return false" id="practiceInput" ><input autocomplete="off" id="input" onfocus="this.placeholder = ''" type="text" placeholder="spell the word"><input  type="submit" id="submitButton">
     </form>
 <p id="right"></p>
-    
+    <footer>
+      <p class="terryCopyright">Spelling Sorcery App, <a href="https://terryjreynolds.dev" target="_blank"
+          style="color: #7f00b9">Terry
+          Reynolds</a> &#0169
+        <script>document.write(new Date().getFullYear())</script>
+      </p><span class="photoCredit">Photo by Michael Dziedzic on Unsplash</span>
+    </footer>
 
     <script type="text/javascript" src="lists.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    
   </body>
 
-  <footer>
-    <p class="terryCopyright">Spelling Sorcery App, <a href="https://terryjreynolds.dev" target="_blank"
-        style="color: #7f00b9">Terry
-        Reynolds</a> &#0169
-      <script>document.write(new Date().getFullYear())</script>
-    </p><span class="photoCredit">Photo by Michael Dziedzic on Unsplash</span>
-  </footer>
+  
 </html>
