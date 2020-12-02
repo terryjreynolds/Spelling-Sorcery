@@ -42,13 +42,18 @@ span {
 }
 #input {
   border-radius: 8px;
-  height: 5vh;
+  height: 6vh;
+  width: 50vh;
+  outline: none;
   border-color: #1cf115;
   outline: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
 }
 #input:hover {
   opacity: 0.7;
 }
+
 .listButton {
   border-radius: 8px;
   outline: none;
@@ -61,7 +66,7 @@ span {
 #submitButton {
   margin-left: 10px;
   border-radius: 8px;
-  height: 5vh;
+  height: 6vh;
   transition: ease-in;
 }
 #submitButton:hover {
@@ -69,10 +74,15 @@ span {
   opacity: 0.7;
 }
 #inputPin {
+  outline: none;
   max-width: 100px;
+  margin-right: 8px;
+  border-radius: 8px;
 }
 #submitButton2 {
   margin-right: 50px;
+  border-radius: 8px;
+  outline: none;
 }
 #modeButton {
   display: inline;
@@ -182,8 +192,13 @@ input:checked + .slider:before {
   margin-right: 10px;
 }
 
-@media only screen and (max-width: 349px) {
+@media only screen and (max-width: 568px) {
   #pageTitle {
-    padding-top: 5rem;
+    padding-top: 6rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #pageTitle {
+    padding-top: 8rem;
   }
 }

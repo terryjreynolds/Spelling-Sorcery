@@ -599,7 +599,7 @@
         </ul>
         
       </div>
-      <form action="#" onsubmit="lockPracticeMode();return false" id="lockcodeInput"><input placeholder="Enter pin" type="text" autocomplete="off" id="inputPin"><input type="submit" id="submitButton2"></form>
+      <form action="#" onsubmit="lockPracticeMode();return false" id="lockcodeInput"><input placeholder="Enter pin" type="password" autocomplete="off" id="inputPin" onfocus="this.placeholder = ''"><input type="submit" id="submitButton2"></form>
       <a class="navbar-brand" id="switchLabel" href="#">Mode</a>
       
         <label class="switch" id="switchMode">
@@ -619,7 +619,8 @@
 
     <span id="span"></span>
 
-    <form  action="#" onsubmit="checkSpelling();return false" id="practiceInput" ><input autocomplete="off" id="input" onfocus="this.placeholder = ''" type="text" placeholder="spell the word">
+    <form  action="#" onsubmit="checkSpelling();return false" id="practiceInput" ><input autocomplete="off" id="input" onfocus="this.placeholder = ''" type="text" placeholder="Choose spelling list above"  onfocus="this.placeholder = ''"
+><input type="submit" id="submitButton">
     </form>
 <p id="right"></p>
     <footer>

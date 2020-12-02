@@ -39,7 +39,7 @@ changeButtonText = (newText) => {
 };
 //sets up form field for app start up
 setInitialFocus = () => {
-  document.getElementById("input").focus();
+  // document.getElementById("input").focus();
   document.getElementById("input").setAttribute("placeholder", "Choose a number");
 }
 //dynamically constructs a list of buttons, one for each list word of list chosen
@@ -53,7 +53,7 @@ makeDictationButtons = (currentList) => {
   {
     numButtons.map((c, i) => insertButtons(c, i, currentList));
   }
-  setInitialFocus();
+  // setInitialFocus();
 };
 
 removeAllButtons = () => {
@@ -70,11 +70,13 @@ insertButtons = (c, i, currentList) => {
     btn.classList.add("listButton");
     const span = document.getElementById("span");
     span.appendChild(btn);
+    setInitialFocus();
     btn.addEventListener("click", function () {
       btn.style.color = "#1cf115";
       playAudio(c, currentList);
            disableButtons();
   disableInputs(); 
+  
     });
   }
 };
