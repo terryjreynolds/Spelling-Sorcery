@@ -15,12 +15,12 @@ button {
   text-shadow: 0.5px 0.5px #1cf115;
 }
 .image {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  width: 30%;
+  margin: 0 auto;
 }
 img {
-  max-width: 30%;
+  max-width: 100%;
+  height: auto;
 }
 .lesson {
   display: flex;
