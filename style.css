@@ -21,7 +21,9 @@ button {
 }
 img {
   width: 25vw;
+  height: auto;
 }
+
 .lesson {
   display: flex;
   flex-direction: row;
