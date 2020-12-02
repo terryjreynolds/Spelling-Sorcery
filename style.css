@@ -20,10 +20,8 @@ button {
   justify-content: center;
 }
 img {
-  width: 25%;
-  height: auto;
+  max-width: 30%;
 }
-
 .lesson {
   display: flex;
   flex-direction: row;
