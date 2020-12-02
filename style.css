@@ -54,8 +54,6 @@ span {
 
 .listButton {
   border-radius: 8px;
-  outline: none;
-  transition: ease-in;
 }
 .listButton:hover {
   font-weight: bold;
@@ -65,7 +63,6 @@ span {
   margin-left: 10px;
   border-radius: 8px;
   height: 6vh;
-  transition: ease-in;
 }
 #submitButton:hover {
   font-weight: bold;
