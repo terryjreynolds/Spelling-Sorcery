@@ -69,8 +69,7 @@ insertButtons = (c, i, currentList) => {
     btn.innerHTML = i + 1;
     btn.classList.add("listButton");
     const span = document.getElementById("span");
-    span.appendChild(btn);
-    setInitialFocus();
+    span.appendChild(btn);    
     btn.addEventListener("click", function () {
       btn.style.color = "#1cf115";
       playAudio(c, currentList);
@@ -78,6 +77,7 @@ insertButtons = (c, i, currentList) => {
   disableInputs(); 
   
     });
+     setInitialFocus();
   }
 };
 
