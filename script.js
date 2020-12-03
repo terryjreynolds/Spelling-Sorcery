@@ -36,7 +36,10 @@ document.getElementById("switchButton").addEventListener("click", function () {
 });
 
 closeDropDownMenu = () => {
-  document.getElementById("navigation").setAttribute("aria-expanded") = "false";
+  console.log('closeDropDownMenu');
+ console.log(document.getElementById("navigation").getAttribute("aria-expanded"));
+  document.getElementById("navigation").setAttribute("aria-expanded", "false");
+  console.log(document.getElementById("navigation").getAttribute("aria-expanded"));
 }
 //when user presses a word button, value gets stored in state. On submit, the value is compared. If correct, flash a checkmark and restore the input. If incorrect flash an x and restore input with placeholder of spell the word.
 chooseSpellingList = (selectedList) => {
