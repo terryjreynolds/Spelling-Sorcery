@@ -69,7 +69,8 @@ insertButtons = (c, i, currentList) => {
     btn.innerHTML = i + 1;
     btn.classList.add("listButton");
     const span = document.getElementById("span");
-    span.appendChild(btn);    
+    span.appendChild(btn);   
+    btn.style = "background: white; color: black"; 
     btn.addEventListener("click", function () {
       btn.style.color = "#1cf115";
       playAudio(c, currentList);

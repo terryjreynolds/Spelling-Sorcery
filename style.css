@@ -1,3 +1,7 @@
+button {
+  margin: 100px;
+}
+
 #pageTitle {
   display: flex;
   flex-direction: row;
@@ -54,7 +58,10 @@ span {
 .listButton {
   border-radius: 8px;
 }
-
+.listButton:hover {
+  font-weight: bold;
+  opacity: 0.7;
+}
 #submitButton {
   margin-left: 10px;
   border-radius: 8px;
