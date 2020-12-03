@@ -1,5 +1,7 @@
+
+
 $(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a:not(".dropdown-toggle")') ) {
+    if( $(e.target).is('dropdown-item') ) {
         $(this).collapse('hide');
     }
 });
