@@ -191,3 +191,9 @@ input:checked + .slider:before {
   color: white;
   margin-left: 10px;
 }
+@media (max-width: 1024px) {
+  /* IPad breakpoint */
+  body {
+    cursor: pointer; /* Fix iPhone/iPad click issue */
+  }
+}
