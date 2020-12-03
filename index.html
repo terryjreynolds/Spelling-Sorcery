@@ -65,11 +65,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
+          
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -80,7 +76,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Spelling Lists A
+              A Lists
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a
@@ -185,7 +181,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Spelling Lists B
+              B Lists
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a
@@ -290,7 +286,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Spelling Lists C
+              C Lists
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a
@@ -395,7 +391,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Spelling Lists D
+              D Lists
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a
@@ -500,7 +496,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Spelling Lists E
+              E Lists
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a
@@ -596,18 +592,51 @@
             
             </div>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Mode
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <div>
+          
+                <a class="navbar-brand" id="switchLabel" href="#">Mode</a>
+          
+                <label class="switch" id="switchMode">
+          
+                  <input type="checkbox" checked id="switchButton">
+          
+                  <span class="slider round"><span id="locked">🔐</span></span>
+                </label>
+              </div>
+           <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Admin
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <div>
+                <form action="#" onsubmit="lockPracticeMode();return false" id="lockcodeInput"><input placeholder="Enter pin"
+                    type="password" autocomplete="off" id="inputPin" onfocus="this.placeholder = ''"><input type="submit"
+                    id="submitButton2"></form>
+               
+              </div>
+            
+            </div>
+          </li>
+          
         </ul>
         
       </div>
-      <form action="#" onsubmit="lockPracticeMode();return false" id="lockcodeInput"><input placeholder="Enter pin" type="password" autocomplete="off" id="inputPin" onfocus="this.placeholder = ''"><input type="submit" id="submitButton2"></form>
-      <a class="navbar-brand" id="switchLabel" href="#">Mode</a>
+     
       
-        <label class="switch" id="switchMode">
-          
-          <input type="checkbox" checked id="switchButton">
-          
-          <span class="slider round"><span id="locked">🔐</span></span>
-        </label>
         
     </nav>
 
