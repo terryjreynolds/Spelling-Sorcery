@@ -1,3 +1,10 @@
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a:not(".dropdown-toggle")') ) {
+        $(this).collapse('hide');
+    }
+});
+
+
 //global state variable for the current list word user selects
 let correctSpelling = "";
 const actualLockCode = "1234";
