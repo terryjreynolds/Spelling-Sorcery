@@ -58,10 +58,7 @@ span {
 .listButton {
   border-radius: 8px;
 }
-.listButton:hover {
-  font-weight: bold;
-  opacity: 0.7;
-}
+
 #submitButton {
   margin-left: 10px;
   border-radius: 8px;
