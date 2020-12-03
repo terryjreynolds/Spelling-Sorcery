@@ -43,10 +43,10 @@ span {
 #input {
   border-radius: 8px;
   outline: none;
+  background: white;
+  color: black;
   border-color: #1cf115;
-  outline: none;
-  font-size: 1.2rem;
-  font-weight: bolder;
+  width: 30%;
 }
 #lockCodeInput {
   width: 35%;
@@ -66,6 +66,8 @@ span {
   margin-left: 10px;
   border-radius: 8px;
   height: 6vh;
+  background: white;
+  color: black;
 }
 #submitButton:hover {
   font-weight: bold;
