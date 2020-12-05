@@ -1,10 +1,6 @@
 
 
-// $(document).on('click','.navbar-collapse.in',function(e) {
-//     if( $(e.target).is('dropdown-item') ) {
-//         $(this).collapse('hide');
-//     }
-// });
+$(function () { $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function () { $('.navbar-toggle:visible').click(); }); });
 
 
 //global state variable for the current list word user selects
@@ -35,20 +31,14 @@ document.getElementById("switchButton").addEventListener("click", function () {
   toggleMode(currentText);
 });
 
-closeDropDownMenu = () => {
-  console.log('closeDropDownMenu');
- console.log(document.getElementById("navigation").getAttribute("aria-expanded"));
-  document.getElementById("navigation").setAttribute("aria-expanded", "false");
-  console.log(document.getElementById("navigation").getAttribute("aria-expanded"));
-}
+
 //when user presses a word button, value gets stored in state. On submit, the value is compared. If correct, flash a checkmark and restore the input. If incorrect flash an x and restore input with placeholder of spell the word.
 chooseSpellingList = (selectedList) => {
   console.log({selectedList});
   console.log("chooseSpellingList", selectedList);
   changeButtonText(selectedList);
   makeDictationButtons(selectedList);
-  closeDropDownMenu();
-  
+ 
 };
 
 changeButtonText = (newText) => {
