@@ -1,6 +1,6 @@
 
 
-$(function () { $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function () { $('.navbar-toggle:visible').click(); }); });
+// $(function () { $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function () { $('.navbar-toggle:visible').click(); }); });
 
 
 //global state variable for the current list word user selects
