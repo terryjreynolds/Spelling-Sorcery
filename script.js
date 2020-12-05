@@ -32,8 +32,8 @@ document.getElementById("switchButton").addEventListener("click", function () {
 });
 
 closeDropDown = () => {
-   document.getElementById("navbarNavDropdown").collapse;
-  // $("#navbarNavDropdown").collapse('hide');
+//splash of jquery to easily hide the navbar after click on anchor
+  $("#navbarNavDropdown").collapse('hide');
 }
 //when user presses a word button, value gets stored in state. On submit, the value is compared. If correct, flash a checkmark and restore the input. If incorrect flash an x and restore input with placeholder of spell the word.
 chooseSpellingList = (selectedList) => {
