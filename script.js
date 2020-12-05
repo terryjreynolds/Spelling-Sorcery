@@ -31,14 +31,12 @@ document.getElementById("switchButton").addEventListener("click", function () {
   toggleMode(currentText);
 });
 
-
 //when user presses a word button, value gets stored in state. On submit, the value is compared. If correct, flash a checkmark and restore the input. If incorrect flash an x and restore input with placeholder of spell the word.
 chooseSpellingList = (selectedList) => {
   console.log({selectedList});
   console.log("chooseSpellingList", selectedList);
   changeButtonText(selectedList);
   makeDictationButtons(selectedList);
- 
 };
 
 changeButtonText = (newText) => {
