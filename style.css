@@ -33,6 +33,7 @@ span {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 10px;
 }
 #practiceInput {
   display: flex;
@@ -46,7 +47,7 @@ span {
   background: white;
   color: black;
   border-color: #1cf115;
-  width: 30%;
+  width: 35%;
 }
 #lockCodeInput {
   width: 35%;
@@ -195,5 +196,12 @@ input:checked + .slider:before {
   /* IPad breakpoint */
   body {
     cursor: pointer; /* Fix iPhone/iPad click issue */
+  }
+}
+@media (max-width: 500px) {
+  /* IPad breakpoint */
+  #input {
+    font-size: 0.8em;
+    width: 60%;
   }
 }

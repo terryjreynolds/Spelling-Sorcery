@@ -22,15 +22,35 @@ toggleMode = (currentText) => {
     document.getElementById("modeLabel").style.color = "#1cf115"
     setInitialFocus();
   }
-
+ setTimeout(function() {
+   closeIt();
+  },800);
 };
 //event listener on the switch calls toggleMode which adjusts the label below the pic and 
 //provides a form field for inputs
-document.getElementById("switchButton").addEventListener("click", function () {
+document.getElementById("switchButton").addEventListener("click", function (e) {
   let currentText = document.getElementById("modeLabel").innerHTML;
   toggleMode(currentText);
 });
 
+document.getElementById("navbarDropdownMenuLinkSwitch").addEventListener("click", function (e) {
+  openDropDown();
+  if (lockStatus === "locked") {
+    
+    setTimeout(function() {
+   closeIt();
+  },800);
+  }
+});
+
+openDropDown = () => {
+  console.log('im in open');
+$("#navbarDropdownMenuLinkSwitch").dropdown('toggle');
+}
+closeIt = () => {
+  console.log('im in closeIt');
+$("#navbarDropdownMenuLinkSwitch").dropdown('hide');
+}
 closeDropDown = () => {
 //splash of jquery to easily hide the navbar after click on anchor
   $("#navbarNavDropdown").collapse('hide');
@@ -179,10 +199,10 @@ lockPracticeMode = () => {
 }
 //handles user input. Displays got it if correct and try again if not
 checkSpelling = () => {
-
-const spelling = document.getElementById("input").value;
+  //cleanse user input
+const spelling = (document.getElementById("input").value).toLowerCase();
 console.log('spelling', spelling);
-  if ( spelling == correctSpelling) {
+  if ( spelling === correctSpelling) {
     console.log('correct');
     const right = document.getElementById("right");
     right.style.display = "flex";
