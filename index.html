@@ -56,6 +56,7 @@
       <a class="navbar-brand" id="brand" href="#">Spelling Sorcery </a>
       <button
         class="navbar-toggler"
+        id="navbarButton"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavDropdown"
@@ -596,7 +597,7 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkSwitch" role="button" 
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkSwitch" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Mode
             </a>
@@ -616,7 +617,7 @@
             <a
               class="nav-link dropdown-toggle"
               href="#"
-              id="navbarDropdownMenuLink"
+              id="navbarDropdownMenuLinkAdmin"
               role="button"
               data-toggle="dropdown"
               aria-haspopup="true"
@@ -624,7 +625,7 @@
             >
               Admin
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" id="navbarDropdownMenuLinkAdmin"aria-labelledby="navbarDropdownMenuLink">
               <div>
                 <form action="#" onsubmit="lockPracticeMode();return false" id="lockcodeInput"><input placeholder="Enter pin"
                     type="password" autocomplete="off" id="inputPin" onfocus="this.placeholder = ''"><input type="submit"

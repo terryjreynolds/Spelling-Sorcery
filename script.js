@@ -1,8 +1,14 @@
 
-
-// $(function () { $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function () { $('.navbar-toggle:visible').click(); }); });
-
-
+//this function closes the bootstrap nav menu when user clicks outside navigation body
+$(document).ready(function () {
+    $(document).click(function (event) {
+        var click = $(event.target);
+        var _open = $(".navbar-collapse").hasClass("show");
+        if (_open === true && !click.hasClass("navbar-toggler")) {
+            $(".navbar-toggler").click();
+        }
+    });
+});
 //global state variable for the current list word user selects
 let correctSpelling = "";
 const actualLockCode = "1234";
@@ -11,7 +17,7 @@ let lockStatus = "unlocked";
 //adjusts the app from practice to test mode
 toggleMode = (currentText) => {
   console.log("in toggleMode");
- 
+
   if (currentText == "Practice Mode") {
     modeLabel.innerHTML = "Test Mode";
     document.getElementById("practiceInput").style.display = "none";
@@ -20,38 +26,29 @@ toggleMode = (currentText) => {
     modeLabel.innerHTML = "Practice Mode";
     document.getElementById("practiceInput").style.display = "flex";
     document.getElementById("modeLabel").style.color = "#1cf115"
-    setInitialFocus();
+     setInitialFocus();
   }
- setTimeout(function() {
-   closeIt();
-  },800);
+  setTimeout(function() {
+   toggleDropdown();
+  },500);
 };
+
+toggleDropdown = () => {
+$("#navbarDropdownMenuLinkSwitch").dropdown('toggle');
+}
+toggleDropdownAdmin = () => {
+  $("#navbarDropdownMenuLinkAdmin").dropdown('toggle');
+}
 //event listener on the switch calls toggleMode which adjusts the label below the pic and 
 //provides a form field for inputs
 document.getElementById("switchButton").addEventListener("click", function (e) {
+ toggleDropdown();
+  console.log('switchButton', switchButton);
   let currentText = document.getElementById("modeLabel").innerHTML;
   toggleMode(currentText);
 });
 
-document.getElementById("navbarDropdownMenuLinkSwitch").addEventListener("click", function (e) {
-  openDropDown();
-  if (lockStatus === "locked") {
-    
-    setTimeout(function() {
-   closeIt();
-  },800);
-  }
-});
-
-openDropDown = () => {
-  console.log('im in open');
-$("#navbarDropdownMenuLinkSwitch").dropdown('toggle');
-}
-closeIt = () => {
-  console.log('im in closeIt');
-$("#navbarDropdownMenuLinkSwitch").dropdown('hide');
-}
-closeDropDown = () => {
+closeMenu = () => {
 //splash of jquery to easily hide the navbar after click on anchor
   $("#navbarNavDropdown").collapse('hide');
 }
@@ -61,7 +58,7 @@ chooseSpellingList = (selectedList) => {
   console.log("chooseSpellingList", selectedList);
   changeButtonText(selectedList);
   makeDictationButtons(selectedList);
- closeDropDown();
+ closeMenu();
 };
 
 changeButtonText = (newText) => {
@@ -104,6 +101,7 @@ insertButtons = (c, i, currentList) => {
     btn.addEventListener("click", function () {
       btn.style.color = "#1cf115";
       playAudio(c, currentList);
+      //disabling things so the user can't fire multiple audio samples at once.
            disableButtons();
   disableInputs(); 
   
@@ -166,6 +164,9 @@ reactivateButtons = () => {
     // console.log(eachButton);
   }
 };
+document.getElementById("submitButton2").addEventListener("click", function () {
+ toggleDropdownAdmin();
+});
 //function to check teacher passcode to lockout practice mode
 lockPracticeMode = () => {
   const lockSymbol = document.getElementById('locked');
@@ -178,24 +179,34 @@ lockPracticeMode = () => {
     lockStatus === "unlocked" ? lockStatus = "locked" : lockStatus = "unlocked";
     console.log(lockcode); 
    inputPin.style.background = "#1cf115"
+  
    lockStatus === "locked" ? inputPin.setAttribute("placeholder", "Locked") : inputPin.setAttribute("placeholder", "Unlocked")
    lockSymbol.style.display === "inline-block" ? lockSymbol.style.display = "none" : lockSymbol.style.display = "inline-block";
    setTimeout(function(){inputPin.setAttribute("placeholder", "Enter Pin");
   inputPin.style.background = "white";
   }, 1200);
+ 
     
   switchButton.disabled === false ? switchButton.disabled = true : switchButton.disabled = false ;
-
+ //call a function to keep the dropdown open long enough to view locked flash msg
+  toggleDropdownAdmin();
+  setTimeout(function(){toggleDropdownAdmin();
+  }, 650);
+  
   }else {
     const inputPin = document.getElementById('inputPin');
     inputPin.style.background = "#f80606";
     inputPin.setAttribute("placeholder", "Wrong Pin");
+    toggleDropdownAdmin();
     setTimeout(function(){inputPin.setAttribute("placeholder", "Enter Pin");
   inputPin.style.background = "rgb(255, 255, 255)";
-
+// document.getElementById("inputPin").focus();
   }, 1200);
+  
   }
   document.getElementById("lockcodeInput").reset(); 
+  
+  
 }
 //handles user input. Displays got it if correct and try again if not
 checkSpelling = () => {
