@@ -1,7 +1,6 @@
 button {
   margin: 100px;
 }
-
 #pageTitle {
   display: flex;
   flex-direction: row;
@@ -122,10 +121,12 @@ footer {
   color: rgb(0, 0, 0);
 }
 .terryCopyright {
-  margin-bottom: 8px;
+  margin-bottom: 1px;
+  font-size: 0.8rem;
 }
 .photoCredit {
   font-size: 0.5rem;
+  margin-bottom: 0;
 }
 /*-------------------------SlIDE MODE SWITCH----------------------------*/
 .switch {
