@@ -2,8 +2,10 @@
 $(document).ready(function(){
   $(window).click(function(e){
     console.log('target is:', e.target.id);
-    //chooses any element that has no clas and is not the mode slider button
-    if (e.target.classList.length === 0 && e.target.id != "switchButton"){
+    console.log('nav status:', document.getElementById("navbarNavDropdown").getAttribute("class"));
+    const navStatus = document.getElementById("navbarNavDropdown").getAttribute("class")
+    //on the click of any element that has no class and is not the mode slider button and if navStatus is 'show', that is not in collapse or collapsing state
+    if (e.target.classList.length === 0 && e.target.id != "switchButton" && navStatus != "navbar-collapse collapsing" && navStatus != "navbar-collapse collapse"){
       closeMenu();
       console.log('conditions met');
     }
