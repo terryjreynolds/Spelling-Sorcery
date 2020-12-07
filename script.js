@@ -1,14 +1,15 @@
-
-//this function closes the bootstrap nav menu when user clicks outside navigation body
-$(document).ready(function () {
-    $(document).click(function (event) {
-        var click = $(event.target);
-        var _open = $(".navbar-collapse").hasClass("show");
-        if (_open === true && !click.hasClass("navbar-toggler")) {
-            $(".navbar-toggler").click();
-        }
-    });
+//closes navbar on click outside of navigation pane
+$(document).ready(function(){
+  $(window).click(function(e){
+    console.log('target is:', e.target.id);
+    //chooses any element that has no clas and is not the mode slider button
+    if (e.target.classList.length === 0 && e.target.id != "switchButton"){
+      closeMenu();
+      console.log('conditions met');
+    }
+  });
 });
+
 //global state variable for the current list word user selects
 let correctSpelling = "";
 const actualLockCode = "1234";
