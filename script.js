@@ -12,7 +12,7 @@ $(document).ready(function(){
   });
 });
 
-//global state variable for the current list word user selects
+//global state variables 
 let correctSpelling = "";
 const actualLockCode = "1234";
 let lockStatus = "unlocked";
@@ -35,7 +35,7 @@ toggleMode = (currentText) => {
    toggleDropdown();
   },500);
 };
-
+//functions to open and close dropdown menus
 toggleDropdown = () => {
 $("#navbarDropdownMenuLinkSwitch").dropdown('toggle');
 }
@@ -170,7 +170,7 @@ reactivateButtons = () => {
 document.getElementById("submitButton2").addEventListener("click", function () {
  toggleDropdownAdmin();
 });
-//function to check teacher passcode to lockout practice mode
+//function to check teacher passcode to lockout practice mode to prevent cheating
 lockPracticeMode = () => {
   const lockSymbol = document.getElementById('locked');
  const lockcode = document.getElementById("inputPin").value;
@@ -187,15 +187,12 @@ lockPracticeMode = () => {
    lockSymbol.style.display === "inline-block" ? lockSymbol.style.display = "none" : lockSymbol.style.display = "inline-block";
    setTimeout(function(){inputPin.setAttribute("placeholder", "Enter Pin");
   inputPin.style.background = "white";
-  }, 1200);
- 
-    
+  }, 1200);  
   switchButton.disabled === false ? switchButton.disabled = true : switchButton.disabled = false ;
  //call a function to keep the dropdown open long enough to view locked flash msg
   toggleDropdownAdmin();
   setTimeout(function(){toggleDropdownAdmin();
-  }, 650);
-  
+  }, 650); 
   }else {
     const inputPin = document.getElementById('inputPin');
     inputPin.style.background = "#f80606";
@@ -203,13 +200,9 @@ lockPracticeMode = () => {
     toggleDropdownAdmin();
     setTimeout(function(){inputPin.setAttribute("placeholder", "Enter Pin");
   inputPin.style.background = "rgb(255, 255, 255)";
-// document.getElementById("inputPin").focus();
   }, 1200);
-  
   }
   document.getElementById("lockcodeInput").reset(); 
-  
-  
 }
 //handles user input. Displays got it if correct and try again if not
 checkSpelling = () => {
@@ -239,7 +232,5 @@ console.log('spelling', spelling);
     }, 2000);
    document.getElementById("practiceInput").reset();
 }
-
-
 }
 

@@ -1,31 +1,14 @@
+/*------------------------ELEMENTAL STYLES-------------------------*/
 button {
   margin: 100px;
 }
-#pageTitle {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 3rem;
-  font-size: 2em;
-  font-weight: bold;
-}
-#brand {
-  font-weight: bold;
-  text-shadow: 0.5px 0.5px #1cf115;
-}
-.image {
-  width: 30%;
-  margin: 0 auto;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-.lesson {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 16px;
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #888;
+  color: rgb(0, 0, 0);
 }
 span {
   display: flex;
@@ -33,6 +16,34 @@ span {
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*------------------------CLASSES and IDs---------------------------*/
+.image {
+  width: 30%;
+  margin: 0 auto;
+}
+#pageTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3rem;
+  color: #888888;
+  font-size: 2em;
+  font-weight: bold;
+}
+#brand {
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px #1cf115;
+}
+.lesson {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 16px;
 }
 #practiceInput {
   display: flex;
@@ -54,7 +65,6 @@ span {
 #input:hover {
   opacity: 0.7;
 }
-
 .listButton {
   border-radius: 8px;
 }
@@ -99,7 +109,6 @@ span {
   font-size: larger;
   z-index: 1;
 }
-
 #right {
   display: hidden;
   flex-direction: row;
@@ -111,14 +120,6 @@ span {
   display: none;
   flex-direction: row;
   justify-content: center;
-}
-footer {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  background-color: #888;
-  color: rgb(0, 0, 0);
 }
 .terryCopyright {
   margin-bottom: 1px;
@@ -193,6 +194,8 @@ input:checked + .slider:before {
   color: white;
   margin-left: 10px;
 }
+/*--------------------MEDIA QUERIES----------------------------------*/
+
 @media (max-width: 1024px) {
   /* IPad breakpoint */
   body {
