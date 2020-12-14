@@ -55,6 +55,23 @@ thirteen: ["nine", "I get to go on the big rides when I turn nine."],
 fourteen: ["stove", "Their stove is always messy after cooking."],
 fifteen: ["swimming", "Lamar did such a good job swimming this year"],
 },
+B11: {
+one: ["chair", "We need another chair at this table."],
+    two: ["chart", "Our mom has a chart to measure how much we've grown."],
+    three: ["crash", "Franklin liked to crash his toy car into the wall."],
+    four: ["sheep", "The sheep are eating grass in the field."],
+    five: ["both", "Chan and Patty are both going to the beach."],
+    six: ["they", "My parents said they are going out tonight."],
+    seven: ["this", "Is this the book you've been reading?"],
+    eight: ["when", "When will mom and dad come home?"],
+    nine: ["why", "Why did you jump in the mud puddle?"],
+    ten: ["who", "Who will babysit us?"],
+eleven: ["own", "Don't use Bailey's crayons. Use your own."],
+    twelve: ["snow", "Snow is covering my car."],
+thirteen: ["goes", "After Monique goes home, I will clean the house."],
+fourteen: ["what", "What do you want for dinner?"],
+fifteen: ["these", "These are my new shoes."],
+},
   C2: {
     one: ["wrench", "here is a sentence"],
     two: ["metal", "Stike the metal with your hammer"],
@@ -352,6 +369,33 @@ twentythree: ["include", "Penny makes sure to include her little brother in the 
 twentyfour: ["accidental", "José made an accidental hole in his shirt when he used scissors to cut the tag off."],
 twentyfive: ["occupied", "Please knock on the bathroom door in case the bathroom is already occupied."],
 },
+D11: {
+one: ["puppies", "Desiree loves playing with the puppies at the animal shelter."],
+    two: ["railways", "You will find many railways crisscrossing the city."],
+    three: ["kidneys", "The kidneys play an important role in the human body; they clean and filter the blood."],
+    four: ["hobbies", "David's grandfather's favorite hobbies are fishing and coin collecting."],
+    five: ["journeys", "Tory writes a blog about her many travel journeys."],
+    six: ["memories", "Madeline has many good memories of spending summer days at her cousins' house."],
+    seven: ["keys", "Irwin is having a hard time finding his house keys."],
+    eight: ["varieties", "Many people don't realize how many varieties of apples there are."],
+    nine: ["valleys", "Valleys are low areas between hills or mountains."],
+    ten: ["skies", "The skies are threatening to rain very soon."],
+eleven: ["families", "Matt and Katie's families have been friends since they were babies."],
+    twelve: ["countries", "How many countries are there on the continent of Asia?"],
+thirteen: ["trays", "I bet that waiter has had a lot of experience carrying heavy trays and platters."],
+fourteen: ["flies", "Please cover that bowl of strawberries so the flies do not land on them."],
+fifteen: ["surveys", "Bart handed out surveys to his classmates as a part of his social studies project."],
+sixteen: ["supplies", "Caleb needs to buy supplies for his science project."],
+seventeen: ["delays", "The airport monitor showed flight cancellations and delays."],
+eighteen: ["parties", "Cynthia enjoys planning birthday parties."],
+nineteen: ["essays", "Our class is learning how to write essays."],
+twenty: ["candies", "The school secretary has a jar of candies on her desk."],
+twentyone: ["always", "Michael always likes to have a snack before he goes to bed."],
+twentytwo: ["mountain", "The town is located at the foot of a mountain."],
+twentythree: ["slouch", "Sometimes Maya will slouch in her chair when she is feeling tired."],
+twentyfour: ["responsibilities", "Police officers have many responsibilities, and one of them is keeping you safe."],
+twentyfive: ["opportunities", "If you join an after school club, you will have many opportunities to meet new friends."],
+},
   E7: {
     one: [
       "monkeys",
@@ -505,24 +549,34 @@ twentythree: ["general", "In general, the more you study for your tests, the bet
 twentyfour: ["survivor", "Ulana's aunt is a survivor of cancer. "],
 twentyfive: ["sorcerer", "In the movie, the main character must defeat the evil sorcerer."],
 },
-
+E11: {
+one: ["ballet", "Alison is practicing for her ballet recital."],
+    two: ["handsome", "Many people think the actor who plays the lead role in the new movie is very handsome."],
+    three: ["soften", "Leave the ice cream on the counter for a few minutes to soften before you serve it."],
+    four: ["knitting", "Rob's grandmother is knitting a winter hat for him."],
+    five: ["match", "Landon wants to watch the tennis match on television this afternoon."],
+    six: ["scratch", "Try not to scratch that insect bite or it will become more itchy."],
+    seven: ["rustle", "The wind made the leaves in the trees rustle."],
+    eight: ["knuckles", "Knuckles are the joints that connect your fingers to your hand."],
+    nine: ["assign", "Mrs. Parker will assign her class a math packet to complete over the winter break."],
+    ten: ["scissors", "You are going to need a pair of scissors to cut the tag off your new shirt."],
+eleven: ["hustle", "Jerome's mother told him to hustle, or he would be late for school."],
+    twelve: ["muscle", "Dana wasn't able to go to cheerleading practice because she strained a muscle"],
+thirteen: ["tomb", "The diagram in our textbooks shows what an ancient Egyptian tomb looked like."],
+fourteen: ["wrench", "Mr. Liberti noticed the wrench was missing from his toolbox."],
+fifteen: ["fudge", "Do you have a good recipe for homemade fudge?"],
+sixteen: ["gnaw", "Daisy the dog likes to gnaw on her bone."],
+seventeen: ["knowledge", "Kevin's grandpa has a lot of knowledge about American history."],
+eighteen: ["thorough", "When David mows the lawn he is very thorough."],
+nineteen: ["answer", "Marie wasn't sure how to answer such a difficult question."],
+twenty: ["playwright", "Perhaps the world's most famous playwright is William Shakespeare."],
+twentyone: ["whistle", "It took a long time for Danny to learn how to whistle."],
+twentytwo: ["autumn", "Nadine's favorite season is autumn."],
+twentythree: ["flight", "The flight from Atlanta to Pittsburgh was delayed by one hour."],
+twentyfour: ["chaos", "When everyone began talking at once, the scene quickly turned into chaos. "],
+twentyfive: ["wrestle", "Camden wants to wrestle, but his parents tell him to wait until he is older."],
+},
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
