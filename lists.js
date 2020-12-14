@@ -162,6 +162,28 @@ eighteen: ["flower", "Christine pressed a flower between the pages of her book."
 nineteen: ["successful", "Mr. Kodam is a successful businessman."],
 twenty: ["necessary", "It is necessary to have a hall pass if you are going to be walking through the school hallways during class time."],
 },
+C11: {
+one: ["daisy", "Marisol showed her brother how to make a daisy chain."],
+    two: ["vase", "Miss Giordano keeps her special vase in the china cabinet."],
+    three: ["plastic", "Jayla recycles all of her plastic water bottles."],
+    four: ["zipper", "Make sure you zipper your jacket before you play outside, Mitchell's mom said."],
+    five: ["reuse", "Michael's parents put their groceries in a canvas bag so they can reuse it every time."],
+    six: ["sense", "It doesn't make sense to wear a winter jacket in the middle of the summer."],
+    seven: ["does", "Does the supermarket close earlier on Sundays?"],
+    eight: ["licence", "Ella wants to get her driver's license as soon as she turns sixteen."],
+    nine: ["closet", "I think it's time to clean out the closet."],
+    ten: ["season", "What is your favorite season?"],
+eleven: ["bicycle", "Shane bought a bicycle at a yard sale with his allowance money."],
+    twelve: ["distance", "Can you tell me the distance between the bank and the post office?"],
+thirteen: ["service", "Eighth grade students must complete ten hours of community service."],
+fourteen: ["classes", "The local bakery is going to start offering cupcake decorating classes."],
+fifteen: ["yesterday", "Yesterday, Adelaide lost her first tooth."],
+sixteen: ["fashion", "Abbey likes to pretend she's a fashion model."],
+seventeen: ["photograph", "Mr. and Mrs. Clayborne have their wedding photograph on the wall in the living room."],
+eighteen: ["enough", "Jayden has enough clothes for the winter."],
+nineteen: ["sincerely", "One way to sign a friendly letter is by using the word sincerely and your name."],
+twenty: ["citizen", "The senior citizen center has a bingo night every Wednesday."],
+},
   D2: {
     one: ["costume", "Ella was excited to try on her Halloween costume"],
     two: ["swift", "Charlie made a swift recovery"],
@@ -485,6 +507,25 @@ twentyfive: ["sorcerer", "In the movie, the main character must defeat the evil 
 },
 
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Shells for building out the word lists
