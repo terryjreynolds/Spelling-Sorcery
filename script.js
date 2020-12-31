@@ -74,8 +74,8 @@ setInitialFocus = () => {
 }
 //dynamically constructs a list of buttons, one for each list word of list chosen
 makeDictationButtons = (currentList) => {
-  let numButtons = Object.keys(lists[currentList]);
-
+  let numButtons = Object.keys(wordData[currentList]);
+console.log('numButtons', numButtons);
   //clear out any pre-existing buttons
   removeAllButtons();
 
@@ -91,9 +91,10 @@ removeAllButtons = () => {
 };
 //populates the screen with a list of buttons for the chosen list
 insertButtons = (c, i, currentList) => {
+  console.log('insertButton', c,i,currentList);
   if (
     document.getElementsByClassName("listButton").length <
-    Object.keys(lists[currentList]).length
+    Object.keys(wordData[currentList]).length
   ) {
     let btn = document.createElement("button");
     btn.innerHTML = i + 1;
@@ -103,7 +104,7 @@ insertButtons = (c, i, currentList) => {
     btn.style = "background: white; color: black"; 
     btn.addEventListener("click", function () {
       btn.style.color = "#1cf115";
-      playAudio(c, currentList);
+      playAudio(i, currentList);
       //disabling things so the user can't fire multiple audio samples at once.
            disableButtons();
   disableInputs(); 
@@ -113,8 +114,10 @@ insertButtons = (c, i, currentList) => {
   }
 };
 
-playAudio = (key, currentList) => {
-  const wordSentenceWord = lists[currentList][key];
+playAudio = (i, currentList) => {
+  console.log('playAudio', i, currentList);
+  let wordSentenceWord = wordData[currentList][i];
+  console.log('wordSentenceWord', wordSentenceWord);
   textToSpeech(wordSentenceWord);
   //trimmed off whitespace to make sure the data was correct
  correctSpelling = wordSentenceWord[0].trim();

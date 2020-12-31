@@ -1,0 +1,892 @@
+const wordData = {
+    B7: [[ 'tree', ' We have a tall tree in our backyard' ],
+  [ 'free', ' Harrison has a coupon for a free hot dog' ],
+  [ 'keep', ' I always keep some money in my jacket pocket' ],
+  [ 'deep', ' The deer wandered deep into the woods' ],
+  [ 'eat', '  Would you like to eat dinner with us?' ],
+  [ 'read', ' Emily likes to read under the covers with a flashlight' ],
+  [ 'beak', ' A toucan is a bird with a very colorful beak' ],
+  [ 'baby', ' The little baby slept in the crib' ],
+  [ 'lady', ' The lady at the bank gave me a sticker' ],
+  [ 'only', " Kenneth is the only one who didn't come to the party" ],
+  [ 'truck', ' We passed a truck that had a picture of a cow on it' ],
+  [
+    'but',
+    " I can swim very well, but I don't like to dive underwater"
+  ],
+  [ 'until', ' You may stay up until your parents get home' ],
+  [ 'treat', '  I always like a treat on my birthday' ],
+  [
+    'because',
+    ' I want to go to the fair because I enjoy riding the carousel'
+  ]],
+  B8: [[ 'time', ' Carter is always on time' ],
+  [ 'nine', ' My cousin is nine years old' ],
+  [ 'sides', ' A cube has six sides' ],
+  [ 'kind', ' My aunt is a very kind woman' ],
+  [ 'sky', ' Do you see the clouds in the sky' ],
+  [ 'dry', " Don't sit on the chair until the paint is dry" ],
+  [ 'eye', ' Gracie went to the eye doctor' ],
+  [ 'high', ' I tried to reach the cookie jar, but it was too high' ],
+  [ 'right', ' Turn right at the corner' ],
+  [ 'sight', ' The large bird flew out of our sight' ],
+  [ 'play', ' Leon wanted to play outside with William' ],
+  [ 'came', ' Grandma came over to our house' ],
+  [ 'chain', ' A chain has many links' ],
+  [ 'myself', ' I walked to the bus stop all by myself' ],
+  [ 'tried', ' Sasha tried to balance a ball on her nose' ]],
+  B9: [[ 'home', ' Kaleb goes home after the ball game' ],
+  [ 'nose', ' My nose feels cold' ],
+  [ 'joke', ' Suki likes to joke around with her friends' ],
+  [ 'own', ' I have my very own scooter' ],
+  [ 'also', ' Jayden likes to play chess, but he also likes checkers' ],
+  [ 'boat', ' Samara sailed a boat across the ocean' ],
+  [ 'goal', ' Hailey scored the winning goal in the hockey game' ],
+  [ 'foam', ' The new foam in my chair makes it extra soft' ],
+  [ 'snow', ' I like to go sledding in the snow' ],
+  [ 'bowl', " I can't believe we ate the whole bowl of watermelon" ],
+  [ 'free', ' We got a free apple with our lunch' ],
+  [ 'baby', " That is the cutest baby I've ever seen" ],
+  [ 'treat', ' I gave my dog a treat' ],
+  [ 'goes', ' Kaleb goes home after the ball game' ],
+  [ 'float', ' Will the stick float on the water, or will it sink' ]],
+  B10: [[ 'crab', ' When the crab pinched my sister she began to cry' ],
+  [ 'black', " Gabriella's favorite color is black" ],
+  [ 'snap', ' Snap peas are my favorite to eat in the summer' ],
+  [ 'brush', ' You should brush your teeth after every meal' ],
+  [ 'sweep', ' I like to sweep the floor with the yellow broom' ],
+  [ 'flame', ' The flame was able to light all the candles' ],
+  [
+    'grams',
+    ' Lisa was surprised at how many grams the orange weighed'
+  ],
+  [
+    'trip',
+    ' Mindy just got back from her trip and has pictures to show us'
+  ],
+  [ 'fast', ' I have never seen Matthew run so fast' ],
+  [ 'fact', ' Christopher only knows one fact about volcanoes' ],
+  [ 'sight', ' The lion had the zebra in its sight' ],
+  [ 'eye', ' Keep an eye on the baby while I am gone' ],
+  [ 'nine', ' I get to go on the big rides when I turn nine' ],
+  [ 'stove', ' Their stove is always messy after cooking' ],
+  [ 'swimming', ' Lamar did such a good job swimming this year' ]],
+  B11: [[ 'chair', ' We need another chair at this table' ],
+  [ 'chart', " Our mom has a chart to measure how much we've grown" ],
+  [ 'crash', ' Franklin liked to crash his toy car into the wall' ],
+  [ 'sheep', ' The sheep are eating grass in the field' ],
+  [ 'both', ' Chan and Patty are both going to the beach' ],
+  [ 'they', ' My parents said they are going out tonight' ],
+  [ 'this', " Is this the book you've been reading" ],
+  [ 'when', ' When will mom and dad come home' ],
+  [ 'why', ' Why did you jump in the mud puddle' ],
+  [ 'who', ' Who will babysit us' ],
+  [ 'own', ' Use your own' ],
+  [ 'snow', ' Snow is covering my car' ],
+  [ 'goes', ' After Monique goes home, I will clean the house' ],
+  [ 'what', ' What do you want for dinner' ],
+  [ 'these', ' These are my new shoes' ]],
+  B12: [[ 'clapping', ' Everyone was clapping loudly after the concert' ],
+  [ 'running', ' Mr. Ivanov is running late for work' ],
+  [
+    'getting',
+    ' Rahul is getting his lunch and going to the cafeteria'
+  ],
+  [ 'sitting', ' Kendra is sitting on a tall stool' ],
+  [ 'stopping', ' The bus is stopping at the corner' ],
+  [ 'tagged', ' Peter tagged his friend Josh and ran away' ],
+  [ 'trapped', ' The kitten was trapped in the garage for an hour' ],
+  [ 'shipped', ' The box was shipped directly to my house' ],
+  [ 'planned', ' Dad planned to make hot dogs for dinner' ],
+  [ 'patted', ' Madison patted the dog on the head' ],
+  [ 'black', ' A black bird jumped around on the lawn' ],
+  [ 'trip', ' Kai and his parents went on a trip to Japan' ],
+  [ 'fact', ' I learned an interesting fact about grasshoppers' ],
+  [ 'carried', ' Pat carried the heavy box upstairs' ],
+  [ 'worrying', ' Stop worrying about your ripped jacket' ]],
+	C7: [[
+    'toys',
+    " Tirzah's favorite toys are her stuffed elephant and stuffed cat"
+  ],
+  [ 'annoy', ' It is very hard to annoy Dr. Anderson' ],
+  [
+    'point',
+    ' The mother asked her baby to point to the lion in the picture book'
+  ],
+  [
+    'noise',
+    " It's difficult for Daniel to concentrate on his book when there's a lot of noise"
+  ],
+  [ 'boy', ' Mrs. Vacanti gave birth to a healthy baby boy' ],
+  [ 'broil', ' Biyu placed the fish in the oven to broil' ],
+  [ 'joyful', ' The holiday season is a joyful time of year' ],
+  [ 'join', ' Bethany wants to join the swim team' ],
+  [
+    'soil',
+    ' The land has rich soil and will be good for planting crops'
+  ],
+  [
+    'destroy',
+    ' A tornado is so powerful that it could destroy houses and property'
+  ],
+  [
+    'loyal',
+    ' Some people say that dogs are the most loyal companions'
+  ],
+  [
+    'avoid',
+    ' If you want to avoid getting a cold, make sure you wash your hands often'
+  ],
+  [
+    'voyage',
+    ' Hundreds of years ago, a voyage across the ocean was difficult and dangerous'
+  ],
+  [
+    'coins',
+    ' Do you have enough coins to operate the laundry machine'
+  ],
+  [ 'voice', ' Anwell likes to sing and has a really beautiful voice' ],
+  [ 'fruit', ' Aunt Sandy brought a fruit tart for dessert' ],
+  [
+    'rescue',
+    ' The Amboni family wants to rescue horses and endangered farm animals'
+  ],
+  [ 'computer', ' Stephen is playing a game on the computer' ],
+  [ 'enjoyable', ' Carmen said the jazz concert was very enjoyable' ],
+  [ 'poisonous', ' A rattlesnake is a type of poisonous snake' ]],
+  C8: [[
+    'clown',
+    " Kenny's little brother had a clown at his birthday party"
+  ],
+  [ 'cloud', ' That big, puffy cloud looks like a dragon' ],
+  [ 'crown', ' The prince wore a golden crown on his head' ],
+  [ 'flour', ' The recipe calls for three cups of flour' ],
+  [ 'flower', ' Brittney picked a flower and gave it to her mom' ],
+  [ 'brown', " Alexandra's hair is a dark brown color" ],
+  [
+    'sound',
+    ' Our dog barked when the doorbell rang because the sound startled him'
+  ],
+  [
+    'mouth',
+    ' Grandma always scolds Aaron when he talks with his mouth full of food'
+  ],
+  [
+    'however',
+    ' I would like to attend the festival; however, I will be out of town'
+  ],
+  [
+    'towel',
+    " Don't forget to bring a towel with you when you go to the beach"
+  ],
+  [ 'trout', ' Mr. Drew ordered rainbow trout from the dinner menu' ],
+  [
+    'around',
+    ' We went to visit our cousins in Charlotte, and they showed us around the city'
+  ],
+  [
+    'meow',
+    ' Julie asked her baby sister, “What does a cat say” and the baby said, “Meow”'
+  ],
+  [
+    'shout',
+    ' Whenever the boys shout in the house, Mom tells them to use their indoor voices'
+  ],
+  [ 'about', " That looks like a good book; What's it about" ],
+  [ 'smile', ' Anjali has a bright, beautiful smile' ],
+  [
+    'arrive',
+    ' The flight will arrive late because it was delayed by the weather'
+  ],
+  [ 'confuse', ' The rules of this board game always confuse me' ],
+  [
+    'downspout',
+    ' A downspout is a pipe that carries rainwater away from a house or building'
+  ],
+  [
+    'allowance',
+    ' Lulu and Tia each get an allowance from their parents if they do their chores'
+  ]],
+  C9: [[ 'golfer', ' Uncle Matthew is a really good golfer' ],
+  [ 'felt', ' Lisa cut a heart shape from a piece of pink felt' ],
+  [
+    'farmer',
+    ' The farmer gets up before sunrise every day to begin his work'
+  ],
+  [ 'full', " I'm so full, I can't eat another bite" ],
+  [
+    'feelings',
+    " If you hurt someone's feelings, the right thing to do is apologize"
+  ],
+  [ 'family', ' How many people do you have in your family' ],
+  [ 'cough', ' Dustin has had a cough for the past couple of days' ],
+  [
+    'enough',
+    " I think you've added enough cinnamon to the applesauce"
+  ],
+  [
+    'roof',
+    " The roof on the Jenkins' house is crumbling and needs to be replaced"
+  ],
+  [ 'rough', ' Sand paper has a rough texture' ],
+  [
+    'forgetful',
+    ' Theresa can be forgetful sometimes, so she tries to write important things down'
+  ],
+  [
+    'fashion',
+    ' When Gabriella grows up she wants to be a fashion designer'
+  ],
+  [
+    'photograph',
+    ' Demarco found an old photograph of his grandfather in the attic'
+  ],
+  [
+    'tough',
+    ' Mr. Driscoll did not enjoy his dinner because the meat was too tough'
+  ],
+  [ 'phrase', ' Jason can say a phrase or two in French' ],
+  [
+    'noise',
+    " Spencer isn't allowed to get a pet bird because they make too much noise"
+  ],
+  [
+    'destroy',
+    ' A hurricane can potentially destroy many homes, businesses, and properties'
+  ],
+  [
+    'voice',
+    ' Be careful that you use your indoor voice when you are in the art gallery'
+  ],
+  [
+    'paragraph',
+    ' Reba needs to rewrite her paragraph to fix the mistakes in it'
+  ],
+  [
+    'difference',
+    ' Can you spot the difference between the two pictures'
+  ]],
+  C10: [[
+    'spill',
+    ' Amy cried because she was sad to spill her ice cream cone on the ground'
+  ],
+  [
+    'berry',
+    " Lindsay's mom made her a berry smoothie as an after-school snack"
+  ],
+  [
+    'happy',
+    ' Lucy was happy to pick out a new book from the library'
+  ],
+  [
+    'really',
+    ' The roads are really icy, so all drivers are advised to drive carefully'
+  ],
+  [
+    'messy',
+    " Makeeda's room was messy, so her father asked her to clean it"
+  ],
+  [ 'lettuce', ' Would you like some lettuce on your sandwich' ],
+  [ 'carrot', " Bryce's mother chopped a carrot to add to the soup" ],
+  [ 'puzzle', ' Ariel received a 500-piece puzzle for her birthday' ],
+  [
+    'traffic',
+    ' We were late to the meeting because there was a lot of traffic'
+  ],
+  [ 'pizza', ' On Friday nights, the Garcia family orders a pizza' ],
+  [
+    'errand',
+    " Shaniqua's mom needs to run an errand before she goes home"
+  ],
+  [
+    'litter',
+    ' Paul is in charge of changing the cat litter as one of his chores'
+  ],
+  [ 'address', ' Will you please send me your new mailing address' ],
+  [
+    'collect',
+    ' Nathaniel has begun to collect coins from different countries'
+  ],
+  [
+    'happen',
+    ' What do you think is going to happen at the end of the movie'
+  ],
+  [
+    'however',
+    ' We were going to take a road trip over the summer; however, we decided to stay home instead'
+  ],
+  [ 'about', ' I wonder what the new movie is going to be about' ],
+  [
+    'flower',
+    ' Christine pressed a flower between the pages of her book'
+  ],
+  [ 'successful', ' Mr. Kodam is a successful businessman' ],
+  [
+    'necessary',
+    ' It is necessary to have a hall pass if you are going to be walking through the school hallways during class time'
+  ]],
+  C11: [[ 'daisy', ' Marisol showed her brother how to make a daisy chain' ],
+  [
+    'vase',
+    ' Miss Giordano keeps her special vase in the china cabinet'
+  ],
+  [ 'plastic', ' Jayla recycles all of her plastic water bottles' ],
+  [
+    'zipper',
+    " “Make sure you zipper your jacket before you play outside,” Mitchell's mom said"
+  ],
+  [
+    'reuse',
+    " Michael's parents put their groceries in a canvas bag so they can reuse it every time"
+  ],
+  [
+    'sense',
+    " It doesn't make sense to wear a winter jacket in the middle of the summer"
+  ],
+  [
+    'does',
+    " Does the supermarket close earlier on Sundays?"
+  ],
+  [
+    'license',
+    " Ella wants to get her driver's license as soon as she turns sixteen"
+  ],
+  [ 'closet', " I think it's time to clean out the closet" ],
+  [ 'season', ' What is your favorite season' ],
+  [
+    'bicycle',
+    ' Shane bought a bicycle at a yard sale with his allowance money'
+  ],
+  [
+    'distance',
+    ' Can you tell me the distance between the bank and the post office'
+  ],
+  [
+    'service',
+    ' Eighth grade students must complete ten hours of community service'
+  ],
+  [
+    'classes',
+    ' The local bakery is going to start offering cupcake decorating classes'
+  ],
+  [ 'yesterday', ' Yesterday, Adelaide lost her first tooth' ],
+  [ 'fashion', " Abbey likes to pretend she's a fashion model" ],
+  [
+    'photograph',
+    ' Mr. and Mrs. Clayborne have their wedding photograph on the wall in the living room'
+  ],
+  [ 'enough', ' Jayden has enough clothes for the winter' ],
+  [
+    'sincerely',
+    ' One way to sign a friendly letter is by using the word “sincerely” and your name'
+  ],
+  [
+    'citizen',
+    ' The senior citizen center has a bingo night every Wednesday'
+  ]],
+  C12:  [[ 'studying', ' Maxwell is studying for his history test' ],
+  [ 'joking', ' Sameer is always joking around' ],
+  [
+    'served',
+    ' The dinner was served as a buffet so everybody could help themselves'
+  ],
+  [
+    'dropped',
+    ' As soon as Laqueta dropped a pretzel on the floor, her dog, Skipper, ate it up'
+  ],
+  [
+    'exciting',
+    ' The upcoming football season should be very exciting'
+  ],
+  [
+    'noticing',
+    ' Kim kept noticing snowflakes falling outside the office window'
+  ],
+  [ 'cared', ' Nadine has always cared about helping animals' ],
+  [
+    'beginning',
+    ' Right from the beginning of the book, Ellen knew it was going to be a good story'
+  ],
+  [
+    'dripping',
+    ' The plumber fixed the kitchen sink so that the faucet was no longer dripping'
+  ],
+  [
+    'changed',
+    ' When Maria got home from school, she changed into her leotard for dance'
+  ],
+  [
+    'stopped',
+    ' The driver of the car stopped to let a family of ducks cross the road'
+  ],
+  [
+    'walking',
+    ' Mr. Mchugh likes walking by the river in the evenings'
+  ],
+  [ 'sleeping', ' Ryan enjoys sleeping in on the weekends' ],
+  [
+    'acting',
+    ' Since Megan likes acting, she wants to be a Broadway actress someday'
+  ],
+  [ 'trying', ' Jahari is trying out for the basketball team' ],
+  [
+    'address',
+    " What is the address of the doctor's office, so I can find it"
+  ],
+  [
+    'errand',
+    " Jamie's dad needs to run an errand before he takes her to her piano lesson"
+  ],
+  [ 'collect', ' Jerome likes to collect stamps' ],
+  [
+    'decorating',
+    ' Mrs. Klock is decorating Christmas cookies for her holiday party'
+  ],
+  [
+    'prepared',
+    ' Lolita felt well-prepared to give her presentation to the class'
+  ]],
+  C13: [[
+    'ant',
+    " An ant can lift something as heavy as 5,000 times its own weight!"
+  ],
+  [ 'aunt', " Your aunt is your father or mother's sister" ],
+  [
+    'there',
+    " Would you like to look at the restaurant's menu ahead of time, or wait until we get there"
+  ],
+  [
+    'their',
+    " The Johnson's are having their annual holiday party on Saturday"
+  ],
+  [
+    "they're",
+    " Susan's brothers said they're planning to buy a model airplane"
+  ],
+  [
+    'brake',
+    ' When Adam wanted to stop his bike, he squeezed the brake'
+  ],
+  [
+    'break',
+    ' Tanya will take a break from doing her homework for a little while'
+  ],
+  [ 'your', ' I think your new haircut looks amazing' ],
+  [
+    "you're",
+    " Please let me know if you're going to come to the party"
+  ],
+  [
+    'beat',
+    ' Zachary is good at keeping a steady beat when he plays the drums'
+  ],
+  [ 'beet', ' A beet is a purple-colored root vegetable' ],
+  [
+    'sail',
+    " Yanni's parents are going to take lessons to learn how to sail a boat"
+  ],
+  [
+    'sale',
+    ' The department store is having its biggest sale the day after Thanksgiving'
+  ],
+  [
+    'bare',
+    " Now that it's almost winter, all the leaves have fallen and the leaves are bare"
+  ],
+  [
+    'bear',
+    ' The television special was all about the great grizzly bear'
+  ],
+  [
+    'license',
+    ' Before you go fishing, you will need a fishing license if you are over a certain age'
+  ],
+  [ 'distance', ' Jabari is training to be a long distance runner' ],
+  [
+    'yesterday',
+    ' Yesterday Erin and her friends had a board game tournament'
+  ],
+  [ 'clothes', ' The baby has already outgrown her newborn clothes' ],
+  [ 'close', " Please close the window; it's a little cold in here" ]],
+  C14: [[ 'dessert', ' Would you like a slice of lemon cake for dessert' ],
+  [
+    'desert',
+    ' A scorpion is a creature you would find in the desert'
+  ],
+  [ 'lose', ' Kinsley was excited to lose her first tooth' ],
+  [
+    'loose',
+    " Riley tightened Buddy's collar because it was too loose"
+  ],
+  [ 'its', ' The elephant drinks water through its trunk' ],
+  [ "it's", " Do you think it's going to snow tomorrow" ],
+  [
+    'then',
+    ' I will finish reading one more chapter of my book, then I will go to bed'
+  ],
+  [ 'than', ' Ten is a bigger number than eight' ],
+  [
+    "who's",
+    " Emily is eager to find out who's going to be in her group for the group project"
+  ],
+  [ 'whose', ' Do you know whose sneakers these are' ],
+  [
+    'super',
+    ' Juan received an A on his spelling test and a sticker that said “Super'
+  ],
+  [
+    'supper',
+    " Taylor's mom is making spaghetti and meatballs for supper tonight"
+  ],
+  [
+    'are',
+    " Are you supposed to bring in something for show and tell?"
+  ],
+  [ 'our', ' Our family is Jewish, so we celebrate Hanukkah' ],
+  [ 'hour', ' The talent show is going to begin in one hour' ],
+  [ 'walking', ' Mrs. Lubecki enjoys walking in the park after work' ],
+  [
+    'cared',
+    " When Rosa's friend was feeling sad, Rosa made her a card to let her know she cared"
+  ],
+  [
+    'noticing',
+    " Alec couldn't help noticing that there was enough birthday cake for second helpings"
+  ],
+  [
+    'accept',
+    ' The offer was so generous that Dr. Wendell had to accept it'
+  ],
+  [ 'except', ' He was free every evening except Thursday' ]],
+  D11: [[
+    'puppies',
+    ' Desiree loves playing with the puppies at the animal shelter'
+  ],
+  [ 'railways', ' You will find many railways crisscrossing the city' ],
+  [
+    'kidneys',
+    ' The kidneys play an important role in the human body; they clean and filter the blood'
+  ],
+  [
+    'hobbies',
+    " David's grandfather's favorite hobbies are fishing and coin collecting"
+  ],
+  [ 'journeys', ' Tory writes a blog about her many travel journeys' ],
+  [
+    'memories',
+    " Madeline has many good memories of spending summer days at her cousins' house"
+  ],
+  [ 'keys', ' Irwin is having a hard time finding his house keys' ],
+  [
+    'varieties',
+    " Many people don't realize how many varieties of apples there are"
+  ],
+  [ 'valleys', ' Valleys are low areas between hills or mountains' ],
+  [ 'skies', ' The skies are threatening to rain very soon' ],
+  [
+    'families',
+    " Matt and Katie's families have been friends since they were babies"
+  ],
+  [
+    'countries',
+    ' How many countries are there on the continent of Asia'
+  ],
+  [
+    'trays',
+    ' I bet that waiter has had a lot of experience carrying heavy trays and platters'
+  ],
+  [
+    'flies',
+    ' Please cover that bowl of strawberries so the flies do not land on them'
+  ],
+  [
+    'surveys',
+    ' Bart handed out surveys to his classmates as a part of his social studies project'
+  ],
+  [
+    'supplies',
+    ' supplies Caleb needs to buy supplies for his science project'
+  ],
+  [
+    'delays',
+    ' The airport monitor showed flight cancellations and delays'
+  ],
+  [ 'parties', ' Cynthia enjoys planning birthday parties' ],
+  [ 'essays', ' Our class is learning how to write essays' ],
+  [
+    'candies',
+    ' The school secretary has a jar of candies on her desk'
+  ],
+  [
+    'always',
+    ' Michael always likes to have a snack before he goes to bed'
+  ],
+  [ 'mountain', ' The town is located at the foot of a mountain' ],
+  [
+    'slouch',
+    ' Sometimes Maya will slouch in her chair when she is feeling tired'
+  ],
+  [
+    'responsibilities',
+    ' Police officers have many responsibilities, and one of them is keeping you safe'
+  ],
+  [
+    'opportunities',
+    ' If you join an after school club, you will have many opportunities to meet new friends'
+  ]],
+  D12: [[ 'children', ' Lots of children are playing at the park today' ],
+  [
+    'patches',
+    " Sophie's grandma sewed patches onto Sophie's favorite teddy bear"
+  ],
+  [
+    'women',
+    ' You can buy your tickets from the women at the ticket counter'
+  ],
+  [
+    'glasses',
+    " Brady's mom bought a new set of drinking glasses from the store"
+  ],
+  [
+    'wolves',
+    ' Daniel likes to see the wolves at the local wildlife sanctuary'
+  ],
+  [
+    'compasses',
+    ' The boy scouts received new compasses for their camping trip'
+  ],
+  [
+    'volcanoes',
+    " Greg's family saw the active volcanoes on Hawaii's big island during their vacation"
+  ],
+  [
+    'sketches',
+    ' Heather keeps all of her sketches in a special art journal'
+  ],
+  [
+    'scarves',
+    ' It looks like the clothing boutique is having a sale on scarves this week'
+  ],
+  [
+    'potatoes',
+    ' We are going to have baked potatoes with our dinner tonight'
+  ],
+  [ 'loaves', ' The bakery has fresh loaves of bread for sale' ],
+  [ 'zeroes', ' How many zeroes are in the number, ten thousand' ],
+  [
+    'foxes',
+    " A pair of foxes is living along the riverbank by Esther's house"
+  ],
+  [
+    'leaves',
+    ' Josef must rake the leaves in the yard before he can play football with his friends'
+  ],
+  [
+    'stitches',
+    ' Xena learned how to make tiny stitches in the fabric'
+  ],
+  [ 'halves', ' Mr. Vanderbuilt cut the watermelon into two halves' ],
+  [
+    'weaknesses',
+    ' The main character in a book should have strengths as well as weaknesses'
+  ],
+  [
+    'brushes',
+    ' Janine received a new set of paint brushes for her birthday'
+  ],
+  [
+    'sandboxes',
+    " Surendir's dad was flipping through the summer catalog, looking at sandboxes"
+  ],
+  [
+    'heroes',
+    ' Which character traits make the best storybook heroes'
+  ],
+  [
+    'succeed',
+    ' This summer, Hillary plans to succeed in completing a half marathon'
+  ],
+  [
+    'traffic',
+    ' Darlene was late for the meeting because there was a lot of traffic'
+  ],
+  [
+    'equally',
+    " “Make sure you split the last piece of pie equally,” Noah and Dave's mom told them"
+  ],
+  [ 'mosquitoes', ' Mosquitoes buzzed around our campfire' ],
+  [
+    'parentheses',
+    " In this exercise, you'll need to decide where to put the parentheses in each sentence"
+  ]],
+  E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
+  [
+    'handsome',
+    ' Many people think the actor who plays the lead role in the new movie is very handsome'
+  ],
+  [
+    'soften',
+    ' Leave the ice cream on the counter for a few minutes to soften before you serve it'
+  ],
+  [ 'knitting', " Rob's grandmother is knitting a winter hat for him" ],
+  [
+    'match',
+    ' Landon wants to watch the tennis match on television this afternoon'
+  ],
+  [
+    'scratch',
+    ' Try not to scratch that insect bite or it will become more itchy'
+  ],
+  [ 'rustle', ' The wind made the leaves in the trees rustle' ],
+  [
+    'knuckles',
+    ' Knuckles are the joints that connect your fingers to your hand'
+  ],
+  [
+    'assign',
+    ' Mrs. Parker will assign her class a math packet to complete over the winter break'
+  ],
+  [
+    'scissors',
+    ' You are going to need a pair of scissors to cut the tag off your new shirt'
+  ],
+  [
+    'hustle',
+    " Jerome's mother told him to hustle, or he would be late for school"
+  ],
+  [
+    'muscle',
+    " Dana wasn't able to go to cheerleading practice because she strained a muscle"
+  ],
+  [
+    'tomb',
+    ' The diagram in our textbooks shows what an ancient Egyptian tomb looked like'
+  ],
+  [
+    'wrench',
+    ' wrench Mr. Liberti noticed the wrench was missing from his toolbox'
+  ],
+  [ 'fudge', ' Do you have a good recipe for homemade fudge' ],
+  [ 'gnaw', ' Daisy the dog likes to gnaw on her bone' ],
+  [
+    'knowledge',
+    " Kevin's grandpa has a lot of knowledge about American history"
+  ],
+  [ 'thorough', ' When David mows the lawn he is very thorough' ],
+  [
+    'answer',
+    " Marie wasn't sure how to answer such a difficult question"
+  ],
+  [
+    'playwright',
+    " Perhaps the world's most famous playwright is William Shakespeare"
+  ],
+  [
+    'whistle',
+    ' It took a long time for Danny to learn how to whistle'
+  ],
+  [ 'autumn', " Nadine's favorite season is autumn" ],
+  [
+    'flight',
+    ' The flight from Atlanta to Pittsburgh was delayed by one hour'
+  ],
+  [
+    'chaos',
+    ' When everyone began talking at once, the scene quickly turned into chaos'
+  ],
+  [
+    'wrestle',
+    ' Camden wants to wrestle, but his parents tell him to wait until he is older'
+  ]],
+  E12: [[ 'preschool', " Today is Jessica's first day of preschool" ],
+  [
+    'preface',
+    ' The preface of a book can have very important information about the story'
+  ],
+  [
+    'impolite',
+    " Paul's grandparents taught him that it's impolite to talk with your mouth full of food"
+  ],
+  [
+    'rewind',
+    " When people watched movies on old VHS tapes, they'd have to rewind the tapes"
+  ],
+  [
+    'previously',
+    ' I had previously gone to a different dentist, but my new dentist is closer to my house'
+  ],
+  [
+    'forecaster',
+    ' The weather forecaster predicted a sunny, warm weekend'
+  ],
+  [
+    'forewarn',
+    ' The police department issued a statement to forewarn against speeding'
+  ],
+  [
+    'transportation',
+    " Caitlyn's favorite mode of transportation is airplane travel"
+  ],
+  [
+    'transform',
+    ' Have you ever watched a caterpillar transform into a beautiful butterfly'
+  ],
+  [
+    'preview',
+    ' Did you like the preview we saw for the upcoming action movie'
+  ],
+  [
+    'review',
+    'Lets review your spelling words for the next test'
+  ],
+  [
+    'disappear',
+    "It didn't take long for every piece of food on Samone's plate to disappear"
+  ],
+  [
+    'disapprove',
+    " Edison's parents disapprove of him walking to the park by himself"
+  ],
+  [
+    'prefix',
+    ' A prefix is added to the beginning of a word to alter its meaning'
+  ],
+  [
+    'disconnect',
+    " The phone call is going to disconnect because the phone's battery is dying"
+  ],
+  [
+    'disorder',
+    ' The house was in great disorder after the party guests went home'
+  ],
+  [ 'prehistoric', ' The dinosaurs lived in prehistoric times' ],
+  [
+    'remove',
+    ' I had to use a scrub brush to remove the grease from the baking pan'
+  ],
+  [
+    'rearrange',
+    ' I want to rearrange the books on my shelf so they are in alphabetical order'
+  ],
+  [
+    'transition',
+    " Krista's little brother, Tommy, had a smooth transition from kindergarten to first grade"
+  ],
+  [
+    'ancestor',
+    ' An ancestor is your relative who lived a long time before you'
+  ],
+  [ 'neighbor', ' We have a new neighbor at the end of the street' ],
+  [
+    'counselor',
+    ' The school counselor helps you make choices about your future'
+  ],
+  [
+    'transcontinental',
+    ' The first transcontinental railroad was completed in '
+  ],
+  [
+    'disadvantage',
+    ' Sometimes there is a disadvantage to taking the first turn in a board game'
+  ]],
+}
