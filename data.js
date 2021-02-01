@@ -104,6 +104,49 @@ const wordData = {
   [ 'fact', ' I learned an interesting fact about grasshoppers' ],
   [ 'carried', ' Pat carried the heavy box upstairs' ],
   [ 'worrying', ' Stop worrying about your ripped jacket' ]],
+  B13: [
+  [ 'desk', '  Jaxson is sitting at his desk. ' ],
+  [ 'desks', '  Our teacher moved the desks in the classroom' ],
+  [ 'map', '  Mr. Kaiser has a map of the city on his phone.' ],
+  [ 'maps', '  There are five maps hanging on the classroom wall' ],
+  [ 'kitten', '  Vanis kitten likes to play with yarn' ],
+  [ 'kittens', '  The kittens were sleeping next to their mother' ],
+  [ 'mess', '  Yuriko made a mess when she was painting' ],
+  [ 'messes', '  My mom asked, “Who made all of these messes' ],
+  [
+    'lunch',
+    '  Violet brought her lunch to school in a paper bag'
+  ],
+  [
+    'lunches',
+    '  The school served over one hundred lunches to students'
+  ],
+  [ 'this', '  This is my favorite book' ],
+  [ 'chart', '  Do you know how to read this chart' ],
+  [ 'they', '  They are going to the playground' ],
+  [ 'fly', '  A fly landed on my head' ],
+  [ 'flies', '  I sprayed bug repellent to keep the flies away' ]
+],
+B14: [
+  [ 'game', 'Leah and Amelia are playing a game' ],
+  [ 'just', ' We just ate lunch' ],
+  [ 'page', ' Open the book to page fifty-seven' ],
+  [ 'huge', " Declan's balloon is huge" ],
+  [ 'jacket', ' Suki is wearing her new jacket' ],
+  [ 'buggy', ' It was very buggy in the backyard, so we went inside' ],
+  [ 'gym', ' Suki played basketball in the gym' ],
+  [ 'gold', ' My mom has a gold bracelet' ],
+  [
+    'danger',
+    ' The sign in front of the construction zone said, Danger'
+  ],
+  [ 'going', " I am going to Carson's house" ],
+  [ 'stopping', ' The bus is stopping at the corner' ],
+  [ 'planned', " I planned to leave at two o'clock" ],
+  [ 'running', ' Mario is running around the track' ],
+  [ 'bagel', ' Jacob ate a bagel with cream cheese' ],
+  [ 'regular', ' Wear your regular clothes to school' ]
+],
 	C7: [[
     'toys',
     " Tirzah's favorite toys are her stuffed elephant and stuffed cat"
@@ -719,6 +762,186 @@ const wordData = {
     'parentheses',
     " In this exercise, you'll need to decide where to put the parentheses in each sentence"
   ]],
+  D13: [
+  [
+    'flying',
+    '  Look at all those bats flying around in the twilight sky'
+  ],
+  [
+    'participating',
+    "  There are thirty students participating in this year's geography bee"
+  ],
+  [
+    'wandered',
+    '  Some hikers who wandered away from the trail got lost and needed to call for help'
+  ],
+  [
+    'smiling',
+    '  The happy baby was smiling in every one of the pictures of her first birthday party'
+  ],
+  [
+    'admitted',
+    "  Alana admitted that she didn't know a lot about computers"
+  ],
+  [
+    'traveling',
+    "Nicole's grandmother is always traveling to exciting places all over the world"
+  ],
+  [
+    'inherited',
+    "  Thomas inherited his grandfather's baseball card collection"
+  ],
+  [
+    'listening',
+    'I enjoy listening to audio books when I am driving in the car'
+  ],
+  [
+    'sobbed',
+    '  Kylie sobbed when she fell on the sidewalk and skinned her knee'
+  ],
+  [
+    'stopping',
+    '  The school bus keeps stopping at every corner to drop children off at their homes'
+  ],
+  [
+    'poured',
+    '  The waitress came to the table and poured water into our glasses'
+  ],
+  [
+    'allowing',
+    '  Can you believe that new café started allowing people to bring their pets inside'
+  ],
+  [
+    'visited',
+    '  Last week the fourth grade class visited the Hide Park Zoo'
+  ],
+  [
+    'laughing',
+    "  Janelle couldn't stop laughing during the comedy movie"
+  ],
+  [ 'argued', '  The customers argued about who was next in line' ],
+  [ 'coughing', "  Farah's throat was sore from coughing all day" ],
+  [
+    'lied',
+    "  Stan's little sister got in trouble when she lied about brushing her teeth before bed"
+  ],
+  [
+    'shortened',
+    "  Fritz's mom shortened the length of his new pants"
+  ],
+  [
+    'worrying',
+    " Worrying about the problem isn't going to help you solve it"
+  ],
+  [
+    'controlled',
+    'The raging wild fire was finally controlled after hours of careful firefighting'
+  ],
+  [
+    'valleys',
+    '  The valleys tucked in between the mountains in that area are quiet, beautiful places'
+  ],
+  [ 'skies', ' Have you ever seen such brilliant blue skies' ],
+  [
+    'countries',
+    ' There are twelve independent countries on the continent of South America'
+  ],
+  [
+    'concealing',
+    '  The house plant in the living room does a good job concealing the mark on the wall'
+  ],
+  [
+    'preferred',
+    '  Warren preferred to read a hard copy of the newspaper instead of the online version'
+  ]
+],
+D14: [
+  [
+    'carousel',
+    ' Max wants to ride the carousel at the amusement park'
+  ],
+  [
+    'middle',
+    ' Its not a good idea to go outside without a coat in the middle of a Minnesota winter'
+  ],
+  [
+    'eagle',
+    ' Somebody spotted a bald eagle in one of the nearby parks recently'
+  ],
+  [
+    'chuckle',
+    " Kate's grandpa will chuckle to himself when he reads the comics"
+  ],
+  [
+    'cancel',
+    ' The band had to cancel the concert because one of the members was sick'
+  ],
+  [ 'jewel', " Casey's dress-up tiara is missing a jewel" ],
+  [ 'channel', ' Adam gets annoyed when his sister changes the T.V. channel. ' ],
+  [
+    'multiple',
+    ' There are multiple sets of twins in the fifth grade class'
+  ],
+  [
+    'kennel',
+    ' The dogs are happy to play outside together in their new kennel'
+  ],
+  [ 'bicycle', ' Keesha is learning how to ride a bicycle' ],
+  [
+    'towel',
+    " Did someone forget to bring their towel home from Hannah's birthday party"
+  ],
+  [ 'noodle', ' This chicken noodle soup is so delicious' ],
+  [
+    'pickle',
+    " Sammie's bacon, lettuce, and tomato sandwich came with chips and a pickle"
+  ],
+  [
+    'vowel',
+    ' Can you think of a word that begins and ends with a vowel'
+  ],
+  [
+    'parallel',
+    ' parallel If two lines are parallel, they will never intersect with each other'
+  ],
+  [
+    'couple',
+    ' A couple of ducks were floating in the pond as we walked by'
+  ],
+  [
+    'wiggle',
+    " Justine's baby sister will wiggle and squirm when she doesnt want to be held anymore"
+  ],
+  [
+    'barrel',
+    ' If we put a rain barrel outside by the garden, we could use it to water the plants'
+  ],
+  [
+    'scramble',
+    " Harry's mother will usually scramble eggs for his breakfast"
+  ],
+  [
+    'caramel',
+    ' The ice cream shop has a new caramel sundae that Id like to try'
+  ],
+  [
+    'potatoes',
+    ' Mr. Sanchez bought a bag of potatoes at the supermarket'
+  ],
+  [
+    'wolves',
+    ' The local population of wolves has increased in the last ten years'
+  ],
+  [
+    'women',
+    ' Did you know that women have be featured on American coins'
+  ],
+  [
+    'vehicle',
+    " That vehicle is falling apart—it shouldn't be on the road"
+  ],
+  [ 'wrinkle', " The pillowcase didn't have a single wrinkle on it" ]
+],
   E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
   [
     'handsome',
@@ -889,4 +1112,190 @@ const wordData = {
     'disadvantage',
     ' Sometimes there is a disadvantage to taking the first turn in a board game'
   ]],
+  E13: [
+  [ 'graceful', ' Shelby wants to be a graceful figure skater' ],
+  [
+    'comfortable',
+    " The new armchair Nicholas' parents bought for the living room is very comfortable"
+  ],
+  [
+    'worthless',
+    ' Callie accidentally washed the dollar bill in her pocket; now it was probably worthless'
+  ],
+  [
+    'fearful',
+    " It took a while for the puppy to learn he didn't have to be fearful of people"
+  ],
+  [
+    'dependable',
+    ' If someone is dependable, you can always count on them'
+  ],
+  [
+    'lovable',
+    " The lion cub at the zoo is the most lovable baby animal I've ever seen"
+  ],
+  [
+    'predictable',
+    ' Some people enjoy having a predictable schedule every day'
+  ],
+  [
+    'thoughtless',
+    ' Matthias apologized to Tom for the thoughtless comment he made earlier'
+  ],
+  [
+    'faithful',
+    ' Mrs. Glenbrook is a faithful donor to the local animal shelter'
+  ],
+  [
+    'beautiful',
+    " Isabel bought a beautiful dress to wear to her cousin's wedding"
+  ],
+  [
+    'careful',
+    ' When Lizzie paints her nails, she is very careful not to smudge the wet nail polish'
+  ],
+  [
+    'peaceful',
+    ' Albert thinks sitting by the waterfall at the park is peaceful'
+  ],
+  [
+    'helpless',
+    ' The kitten stuck in the tree was helpless until someone could rescue him'
+  ],
+  [
+    'sleepless',
+    ' Christian spent a sleepless night working on a final paper for his college class'
+  ],
+  [ 'harmless', ' The dog barks loudly, but he is really harmless' ],
+  [
+    'poisonous',
+    ' How many species of poisonous snakes live in this area'
+  ],
+  [
+    'humorous',
+    ' Ralph has a very humorous personality, and he likes to tell a lot of jokes'
+  ],
+  [
+    'hazardous',
+    ' Garbage that is considered hazardous waste must be disposed of properly'
+  ],
+  [
+    'breakable',
+    " Please be careful with those dishes because they're breakable"
+  ],
+  [
+    'cordless',
+    ' Modern telephones are cordless, only old-fashioned telephones have cords'
+  ],
+  [
+    'scratch',
+    ' If you scratch a bug bite, you will irritate it and make it worse'
+  ],
+  [
+    'rustle',
+    ' Josephina listened to the rustle of the autumn leaves in the trees'
+  ],
+  [ 'knuckle', ' Some of the sweetest crab meat is in the knuckles' ],
+  [
+    'ambidextrous',
+    ' People who are ambidextrous can use their right hand and left hand equally well'
+  ],
+  [
+    'luxurious',
+    ' The ball gown was made from the most luxurious fabric'
+  ]
+],
+  E14: [
+  [
+    'mountain',
+    'Would you be able to hike to the summit of a mountain'
+  ],
+  [
+    'appointment',
+    " If you don't hurry up, we'll be late for the doctor's appointment"
+  ],
+  [
+    'grounded',
+    ' Taylor was grounded for the afternoon when she disobeyed her parents'
+  ],
+  [
+    'grouchy',
+    " When Lucas doesn't get enough sleep, he is grouchy the next day"
+  ],
+  [
+    'outsider',
+    ' Jin felt like an outsider at his new school, but he soon made many friends'
+  ],
+  [
+    'allowed',
+    ' When Candace turned ten years old, she was allowed to have her first sleep-over'
+  ],
+  [ 'oyster', ' Have you ever tasted an oyster before' ],
+  [
+    'soiled',
+    " The baby's clothing was soiled and needed to be changed"
+  ],
+  [
+    'poise',
+    ' A person who is graceful and keeps calm, even in stressful situations, has poise'
+  ],
+  [
+    'chowder',
+    ' The senior center is having a chowder sale to support their activities'
+  ],
+  [ 'bound', ' We are bound to get a storm this evening' ],
+  [ 'loyal', ' Otto thinks dogs are the most loyal animals' ],
+  [
+    'surrounded',
+    ' The remote village is surrounded by the dense Amazon jungle'
+  ],
+  [
+    'coward',
+    ' A coward is a person who knows the right thing to do, but is too afraid to do it'
+  ],
+  [
+    'coiled',
+    ' Look at that snake coiled around the log in its exhibit'
+  ],
+  [
+    'pounded',
+    " Seamus' dad pounded the nail into the board with a hammer"
+  ],
+  [
+    'annoying',
+    ' It can be annoying when other people are talking during a movie or show'
+  ],
+  [
+    'employee',
+    ' Elijah won the “Employee of the Month” award at his office'
+  ],
+  [
+    'avoid',
+    ' One way to avoid getting a cold is to wash your hands often'
+  ],
+  [
+    'oily',
+    ' Some people have naturally dry skin, while others have naturally oily skin'
+  ],
+  [
+    'disconnect',
+    ' When the dog walks behind the couch, she will sometimes disconnect the lamp plug'
+  ],
+  [
+    'forewarn',
+    " Melanie's parents forewarn her about the dangers of walking alone"
+  ],
+  [
+    'transportation',
+    ' Boats, cars, airplanes, bikes, and trucks are all different modes of transportation'
+  ],
+  [
+    'drowsy',
+    ' After the three-hour airplane ride, Mikhail felt drowsy'
+  ],
+  [
+    'joust',
+    ' Knights in the medieval ages would joust against each other in tournaments'
+  ]
+]
 }
