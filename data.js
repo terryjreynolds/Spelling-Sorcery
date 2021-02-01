@@ -1,4 +1,16 @@
 const wordData = {
+  A14: [
+  [ 'glad', " I'm glad we are going to the zoo" ],
+  [ 'play', ' Jamie likes to play with her dolls' ],
+  [ 'slam', ' Tom can slam the baseball with his bat' ],
+  [ 'plant', ' The plant will grow better in the sunlight' ],
+  [ 'glass', ' Mom cleaned the hand print off the glass' ],
+  [ 'sled', ' Eddie got a new sled for Christmas' ],
+  [ 'one', ' My little sister is one year old' ],
+  [ 'said', " The weather man said it's going to rain" ],
+  [ 'glue', ' Lacy needs a new bottle of glue for school' ],
+  [ 'sloth', ' A sloth is a slow-moving jungle animal' ]
+],
     B7: [[ 'tree', ' We have a tall tree in our backyard' ],
   [ 'free', ' Harrison has a coupon for a free hot dog' ],
   [ 'keep', ' I always keep some money in my jacket pocket' ],
