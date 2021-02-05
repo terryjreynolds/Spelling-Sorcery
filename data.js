@@ -11,6 +11,18 @@ const wordData = {
   [ 'glue', ' Lacy needs a new bottle of glue for school' ],
   [ 'sloth', ' A sloth is a slow-moving jungle animal' ]
 ],
+A15: [
+  [ 'frost', ' Did you see the frost on the windows' ],
+  [ 'brown', ' Kayla has brown eyes' ],
+  [ 'free', ' The ice cream shop was giving out free samples' ],
+  [ 'crib', ' The baby sleeps in his crib' ],
+  [ 'crab', ' Today I saw a crab on the beach' ],
+  [ 'brick', ' Brick roads are bumpy when you drive on them' ],
+  [ 'black', " Casey's new puppy has black fur" ],
+  [ 'flag', ' The United States flag is red, white, and blue' ],
+  [ 'frozen', ' In the winter, the pond is completely frozen' ],
+  [ 'break', ' Mia will take a snack break before she reads her book' ]
+],
     B7: [[ 'tree', ' We have a tall tree in our backyard' ],
   [ 'free', ' Harrison has a coupon for a free hot dog' ],
   [ 'keep', ' I always keep some money in my jacket pocket' ],
