@@ -23,6 +23,18 @@ A15: [
   [ 'frozen', ' In the winter, the pond is completely frozen' ],
   [ 'break', ' Mia will take a snack break before she reads her book' ]
 ],
+A16: [
+  [ 'trip', ' Can we plan a camping trip' ],
+  [ 'print', ' Bella can print her name very neatly' ],
+  [ 'grade', ' Abigail is in first grade' ],
+  [ 'trap', ' I will trap the ant under a paper cup' ],
+  [ 'gram', ' The recipe only calls for one gram of sugar' ],
+  [ 'press', ' James wants to press the doorbell' ],
+  [ 'play', ' Hadley is learning how to play the flute' ],
+  [ 'sled', " Let's try out our new sled on the big hill" ],
+  [ 'prince', ' The prince will someday grow up to be a king' ],
+  [ 'princess', ' Wendy had a princess cake for her birthday party' ]
+],
     B7: [[ 'tree', ' We have a tall tree in our backyard' ],
   [ 'free', ' Harrison has a coupon for a free hot dog' ],
   [ 'keep', ' I always keep some money in my jacket pocket' ],
