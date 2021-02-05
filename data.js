@@ -159,6 +159,26 @@ B14: [
   [ 'bagel', ' Jacob ate a bagel with cream cheese' ],
   [ 'regular', ' Wear your regular clothes to school' ]
 ],
+B15: [
+  [ 'duck', ' A duck landed in our swimming pool' ],
+  [ 'check', ' Please check to see if my wallet is on the shelf' ],
+  [ 'track', ' Bobby ran around the track' ],
+  [ 'back', ' Faith drew a picture on the back of the paper' ],
+  [ 'music', ' We learned a new song in music class' ],
+  [ 'comic', ' Suhana bought a comic book' ],
+  [ 'magic', ' Would you like to see a magic trick' ],
+  [ 'cheek', ' Mrs. Smith gave her son a kiss on the cheek' ],
+  [ 'leak', ' The plumber fixed the leak in the pipe' ],
+  [ 'steak', " Tonight we're having steak for dinner" ],
+  [ 'lunches', ' We ate our lunches outside' ],
+  [
+    'desks',
+    ' The teacher moved all of the desks around in her classroom'
+  ],
+  [ 'messes', ' The toddler leaves messes wherever he goes' ],
+  [ 'mistake', ' Carly erased a spelling mistake on her paper' ],
+  [ 'chalk', " Let's use chalk to draw pictures on the sidewalk" ]
+],
 	C7: [[
     'toys',
     " Tirzah's favorite toys are her stuffed elephant and stuffed cat"
@@ -613,6 +633,64 @@ B14: [
     ' The offer was so generous that Dr. Wendell had to accept it'
   ],
   [ 'except', ' He was free every evening except Thursday' ]],
+  C15: [
+  [
+    'cabin',
+    " Cheng's family owns a cabin in the Appalachian Mountains"
+  ],
+  [ 'park', " Let's take a walk in the park" ],
+  [ 'week', ' Landon and Michael are getting very excited for winter break next week.' ],
+  [
+    'crack',
+    " When you crack the egg, be careful that the eggshell doesn't get into the batter"
+  ],
+  [ 'rocket', ' A crowd gathered to watch the rocket launch' ],
+  [
+    'ticket',
+    " The usher at the movie theater collects everybody's ticket"
+  ],
+  [
+    'ache',
+    ' Grandma needs to rest for a while because she has an ache in her back'
+  ],
+  [ 'insect', " I've never seen such a creepy looking insect" ],
+  [ 'freckles', ' Lalor has freckles on his nose and ears' ],
+  [
+    'collapse',
+    ' Since there is a chance the old building might collapse, the construction crew is going to knock it down'
+  ],
+  [
+    'comics',
+    " One of Gregory's favorite things to do is read comics about super heroes"
+  ],
+  [ 'second', ' “Can you hold on a second' ],
+  [
+    'quick',
+    " Veena is a quick learner, Mr. Gaikwad told Veena's mother"
+  ],
+  [
+    'camera',
+    ' The camera that Anna wanted was on sale at the electronics store'
+  ],
+  [ 'octopus', ' An octopus is a sea creature with eight arms' ],
+  [
+    'there',
+    ' I will need to look at the map in order to figure out how to get there'
+  ],
+  [
+    'their',
+    ' Mrs. Graham told the children to wash their hands before dinner'
+  ],
+  [
+    "they're",
+    " Andy's parents said they're planning a family vacation"
+  ],
+  [
+    'breakfast',
+    " Mary's favorite breakfast food is pancakes and sausage"
+  ],
+  [ 'continue', ' The road work will continue after the weekend' ]
+],
   D11: [[
     'puppies',
     ' Desiree loves playing with the puppies at the animal shelter'
@@ -953,6 +1031,77 @@ D14: [
     " That vehicle is falling apart—it shouldn't be on the road"
   ],
   [ 'wrinkle', " The pillowcase didn't have a single wrinkle on it" ]
+],
+D15: [
+  [ 'strongest', '  Who do you think is the strongest superhero' ],
+  [ 'silliest', ' Danny told the silliest joke he could think of' ],
+  [
+    'happier',
+    " Aiysha couldn't imagine being happier than she was at this moment"
+  ],
+  [
+    'heavier',
+    ' That box was heavier than I thought it was going to be'
+  ],
+  [
+    'dirtier',
+    ' Why do you think the river looks dirtier after it rains a lot'
+  ],
+  [
+    'cleanest',
+    " Gordon's bedroom is the cleanest of any of his siblings"
+  ],
+  [ 'highest', ' Who can throw the baseball the highest' ],
+  [
+    'colder',
+    '  Usually the air will feel colder when you are near a body of water than otherwise'
+  ],
+  [ 'youngest', ' Kennedy was the youngest elected U' ],
+  [ 'softer', " Can you imagine anything softer than a kitten's fur" ],
+  [
+    'brighter',
+    ' The room is brighter now that we bought an extra lamp'
+  ],
+  [ 'loudest', ' The loudest species of monkey is the howler monkey' ],
+  [
+    'darker',
+    " Heather's hair is a darker shade of brown than her sister Olivia's"
+  ],
+  [
+    'fastest',
+    ' Nevin is one of the fastest runners in her fourth grade class'
+  ],
+  [
+    'calmer',
+    ' The ocean waves look calmer today than they did yesterday'
+  ],
+  [
+    'hungrier',
+    ' Chad is always hungrier after he goes running than beforehand'
+  ],
+  [ 'sleepiest', " That is the sleepiest puppy I've ever seen" ],
+  [
+    'tougher',
+    ' Marty tries to act tougher than his younger brother, Matt'
+  ],
+  [ 'windiest', ' Wednesday was the windiest day of the week' ],
+  [
+    'smoother',
+    ' The presentation seemed to go smoother the second time around'
+  ],
+  [ 'laughing', ' The comedian had the whole audience laughing' ],
+  [
+    'controlled',
+    ' Security officers controlled the crowds at the football stadium'
+  ],
+  [
+    'smiling',
+    ' It took Ashley a while to get used to smiling with her new braces'
+  ],
+  [
+    'friendliest',
+    ' Mrs. Garrison is one of the friendliest school bus drivers I know'
+  ]
 ],
   E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
   [
@@ -1308,6 +1457,92 @@ D14: [
   [
     'joust',
     ' Knights in the medieval ages would joust against each other in tournaments'
+  ]
+],
+E15: [
+  [ 'squid', '  Calamari is a popular seafood dish made out of squid' ],
+  [
+    'quieter',
+    ' Certain places require you to be quieter than normal, such as a library or a museum'
+  ],
+  [
+    'quickly',
+    " The icy rain that's falling from the sky is quickly turning into snow"
+  ],
+  [
+    'chemical',
+    ' Wearing goggles in the chemistry lab protects your eyes from chemical substances'
+  ],
+  [
+    'ache',
+    ' Mr. Popovich had an ache in his neck for looking over his papers for so long'
+  ],
+  [
+    'echo',
+    ' Athena listened to her voice echo off the walls of the empty rooms in her new house'
+  ],
+  [ 'quadrilateral', '  A quadrilateral is a four-sided shape' ],
+  [
+    'unequal',
+    ' A triangle that has three unequal sides is called a scalene triangle'
+  ],
+  [
+    'confusion',
+    ' In order to avoid confusion when the traffic light went out, policemen directed traffic'
+  ],
+  [
+    'confident',
+    ' Amanda was confident that her soccer team could win the game'
+  ],
+  [
+    'luckily',
+    ' Luckily, there is no rain in the forecast for the weekend'
+  ],
+  [
+    'magical',
+    ' What could be more magical than a wedding ceremony on the beach at sunset'
+  ],
+  [
+    'quality',
+    ' Our favorite restaurant makes the highest quality food'
+  ],
+  [
+    'squeeze',
+    " Make sure you squeeze each lemon tightly when you're making lemonade"
+  ],
+  [
+    'squawk',
+    ' The parrot made a loud squawk from his perch in the tree'
+  ],
+  [ 'unique', ' Chao wears unique clothes to school' ],
+  [
+    'occupy',
+    ' The desk in the living room seems to occupy too much space'
+  ],
+  [
+    'cosmic',
+    ' Alana likes to study cosmic subjects, like how stars are formed'
+  ],
+  [
+    'inquire',
+    " Let's inquire whether the grocery store has any more avocados in stock"
+  ],
+  [
+    'quantity',
+    ' Cartons of eggs usually come in a quantity of one dozen'
+  ],
+  [ 'poisonous', ' I hope I never come across a poisonous snake' ],
+  [
+    'humorous',
+    " When Justin threw a snowball at his brother, Matt, Matt's face was pretty humorous"
+  ],
+  [
+    'hazardous',
+    ' The trail has become hazardous because of frequently falling rocks'
+  ],
+  [
+    'vacation',
+    " Where is Mindy's family going on vacation this year"
   ]
 ]
 }
