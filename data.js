@@ -203,6 +203,23 @@ B15: [
   [ 'mistake', ' Carly erased a spelling mistake on her paper' ],
   [ 'chalk', " Let's use chalk to draw pictures on the sidewalk" ]
 ],
+B16: [
+  [ 'two', ' Seven minus five equals two' ],
+  [ 'too', ' I ate too many cookies' ],
+  [ 'to', ' Lukas will wear a costume to the party' ],
+  [ 'buy', ' Are you going to buy lunch' ],
+  [ 'by', ' This book was written by Marc Brown' ],
+  [ 'bye', ' Bye I will see you later' ],
+  [ 'here', " Isaiah was hiding over here." ],
+  [ 'hear', ' Speak loudly so we can hear you' ],
+  [ 'no', ' No, you may not use my phone' ],
+  [ 'know', ' Do you know how to snap your fingers' ],
+  [ 'danger', ' The sign on the door said Danger Do not enter' ],
+  [ 'going', ' When are you going on vacation?' ],
+  [ 'huge', ' We saw a huge rabbit in the backyard' ],
+  [ 'where', " I can't remember where I put my keys" ],
+  [ 'wear', ' Lukas will wear a costume to the party' ]
+],
 	C7: [[
     'toys',
     " Tirzah's favorite toys are her stuffed elephant and stuffed cat"
@@ -715,6 +732,73 @@ B15: [
   ],
   [ 'continue', ' The road work will continue after the weekend' ]
 ],
+C16: [
+  [
+    'orange',
+    ' Courtney eats an orange every morning with her breakfast'
+  ],
+  [ 'nature', ' Mr. Elwell likes to go for nature walks' ],
+  [ 'judge', ' When Stanley grows up, he wants to be a judge' ],
+  [
+    'large',
+    ' A large crowd gathered in front of the new painting on display at the art gallery'
+  ],
+  [
+    'catch',
+    ' This year at the fishing derby, Rhett hopes he will catch the biggest fish'
+  ],
+  [
+    'stretch',
+    ' Crookshanks, our cat, will stretch after she wakes up from a nap'
+  ],
+  [
+    'capture',
+    ' The photograph really does capture the beauty of the sunset'
+  ],
+  [
+    'culture',
+    ' Cho gave a presentation to her class about her Burmese culture'
+  ],
+  [
+    'porch',
+    ' Mrs. Adams likes to sit on the front porch with a glass of lemonade'
+  ],
+  [
+    'courage',
+    ' When you stand up for someone who is being picked on, you show courage and kindness'
+  ],
+  [
+    'postage',
+    ' Since your package is heavy, you might need a lot of postage'
+  ],
+  [ 'checkers', ' Timothy and Gabe are playing a game of checkers' ],
+  [
+    'arrange',
+    ' Ian decided he wanted to arrange the furniture in his bedroom differently'
+  ],
+  [
+    'jacket',
+    " Luke's mom took him shopping to buy a new spring jacket"
+  ],
+  [
+    'bridge',
+    ' The construction crew closed the bridge so they could repair it'
+  ],
+  [
+    'whose',
+    ' We are trying to figure out whose purse was left on the bleachers at the basketball game'
+  ],
+  [ 'dessert', ' Kathryn made a cheesecake for dessert' ],
+  [ 'supper', ' “What are we having for supper tonight, Mom' ],
+  [
+    'furniture',
+    " Grady's mom and dad went to the furniture store to buy a new sofa"
+  ],
+  [
+    'imaginary',
+    ' Dmitry teased his sister Inna for having an imaginary friend'
+  ]
+],
   D11: [[
     'puppies',
     ' Desiree loves playing with the puppies at the animal shelter'
@@ -1125,6 +1209,96 @@ D15: [
   [
     'friendliest',
     ' Mrs. Garrison is one of the friendliest school bus drivers I know'
+  ]
+],
+D16: [
+  [
+    'skateboard',
+    ' Mitchell asked for a skateboard for his eleventh birthday'
+  ],
+  [
+    'leadership',
+    ' The leadership of the book club is decided by a vote from the members'
+  ],
+  [
+    'everybody',
+    ' It seems like everybody decided to go to the movie theater today'
+  ],
+  [ 'briefcase', " Justin's dad takes a briefcase to work" ],
+  [
+    'applesauce',
+    ' In the fall, Judy likes to make homemade applesauce'
+  ],
+  [
+    'meatball',
+    ' Tobias likes his spaghetti with one meatball on top'
+  ],
+  [
+    'firefighter',
+    ' When Gogul is old enough, he wants to be a volunteer firefighter'
+  ],
+  [
+    'overdue',
+    ' The book that Theo borrowed from the library is three days overdue'
+  ],
+  [
+    'staircase',
+    ' Did you notice the spiral staircase in the old mansion we toured'
+  ],
+  [
+    'daredevil',
+    ' If somebody is a daredevil, it means he or she likes to take risks'
+  ],
+  [
+    'clockwise',
+    ' Miss Lewis drew a circle in the air with her finger to demonstrate a clockwise direction'
+  ],
+  [
+    'shipwreck',
+    ' Have you heard the famous story of the shipwreck of the Titanic'
+  ],
+  [
+    'dishwasher',
+    " Juanita's apartment does not have a dishwasher, so she must wash her dishes by hand"
+  ],
+  [
+    'windshield',
+    ' There is a small chip in the corner of the windshield'
+  ],
+  [
+    'saltwater',
+    ' Different species of fish live in fresh water than those that live in saltwater'
+  ],
+  [ 'lifestyle', ' The Wattengel family leads a very busy lifestyle' ],
+  [ 'motorboat', ' Our neighbor is selling his motorboat this spring' ],
+  [
+    'strawberry',
+    ' Do you know a place where we can go strawberry picking'
+  ],
+  [
+    'wallpaper',
+    ' The wallpaper in the bathroom is old and needs to be replaced'
+  ],
+  [
+    'yearbook',
+    " At the end of the day, Mr. Willis is going to hand out each student's yearbook"
+  ],
+  [
+    'cancel',
+    ' The school will cancel extra-curricular activities tonight because of the bad weather'
+  ],
+  [ 'couple', ' Judah ate a couple pieces of bread with his meal' ],
+  [
+    'parallel',
+    ' Two lines that run parallel to each other will never intersect'
+  ],
+  [
+    'masterpiece',
+    ' “This masterpiece was painted by Vincent Van Gogh,” the art museum guide said'
+  ],
+  [
+    'stomachache',
+    ' If you eat too many pieces of candy, you will get a stomachache'
   ]
 ],
   E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
@@ -1568,5 +1742,62 @@ E15: [
     'vacation',
     " Where is Mindy's family going on vacation this year"
   ]
+],
+E16: [
+  [ 'witch', ' Adair dressed up as a witch for Halloween' ],
+  [
+    'which',
+    ' Kojo wants to know which pair of sneakers he should wear to school'
+  ],
+  [ 'whole', ' I could eat the whole pie by myself' ],
+  [
+    'hole',
+    ' Mason threw away one of his socks because it had a hole in it'
+  ],
+  [
+    'peddle',
+    ' The traveling salesman tried to peddle his goods at the county fair'
+  ],
+  [
+    'petal',
+    ' When Rani touched the rose petal, it felt soft and velvety'
+  ],
+  [
+    'whether',
+    ' Do you know whether or not the grocery store is still open'
+  ],
+  [ 'weather', ' The weather is going to be beautiful this weekend' ],
+  [ 'steel', " The building's beams are made out of steel" ],
+  [
+    'steal',
+    " Arto's puppy tried to steal some popcorn that fell on the floor"
+  ],
+  [ 'plain', ' From the outside, the hotel looked very plain' ],
+  [ 'plane', ' Have you ever flown in a plane before' ],
+  [ 'bare', ' Aubin caught a frog with his bare hands' ],
+  [ 'bear', " “Do you think we'll see a bear on our camping trip" ],
+  [ 'knight', ' The knight wore a heavy suit of armor' ],
+  [ 'night', ' Last night Subira saw a shooting star' ],
+  [ 'piece', ' Sienna ate a piece of peanut butter chocolate pie' ],
+  [ 'peace', " “Let's have some peace and quiet" ],
+  [
+    'flower',
+    ' The seed that Jenny planted grew into a beautiful flower'
+  ],
+  [
+    'flour',
+    ' The recipe for chocolate cake calls for 2 cups of flour'
+  ],
+  [ 'appointment', ' My dentist appointment is at 3 pm' ],
+  [ 'surrounded', ' The lake was surrounded by towering pine trees' ],
+  [
+    'their',
+    ' The children borrowed their favorite books from the library'
+  ],
+  [
+    "they're",
+    " Mr. and Mrs. Rhodes said they're going to be out of town next week"
+  ],
+  [ 'there', ' How long is it going to take to get there' ]
 ]
 }
