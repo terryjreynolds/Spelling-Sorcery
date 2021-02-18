@@ -816,6 +816,64 @@ C16: [
     ' Dmitry teased his sister Inna for having an imaginary friend'
   ]
 ],
+C17:[
+  [
+    'path',
+    " If you stay along the dirt path, you won't get lost in the woods"
+  ],
+  [ 'social', " Emilio's favorite subject is social studies" ],
+  [ 'whale', ' The blue whale is the largest animal on earth' ],
+  [
+    'shimmer',
+    " Brianne's dress was a beautiful golden color with a shimmer of sparkles"
+  ],
+  [
+    'thought',
+    ' We thought it was supposed to rain on Sunday, but it was sunny and dry'
+  ],
+  [
+    'who',
+    " Who is the new student in Mr. Anderson's third grade class"
+  ],
+  [ 'what', ' What do you want me to bring for the party' ],
+  [ 'when', ' “When is Grandma going to teach me how to knit' ],
+  [ 'where', ' Where would you like to go for dinner tonight' ],
+  [ 'why', ' “Why is the sky blue' ],
+  [
+    'motion',
+    ' Aunt Maria made a small motion with her hand to tell Luciana to come over'
+  ],
+  [
+    'ashamed',
+    ' Seamus was ashamed that he pushed Danny, and he said he was sorry'
+  ],
+  [
+    'shelter',
+    " Mrs. Hall's class donated dog toys to the animal shelter during the holidays"
+  ],
+  [
+    'throat',
+    " The doctor told the little boy's mother that he had strep throat"
+  ],
+  [
+    'position',
+    ' Kevin plays an offensive position on the soccer team'
+  ],
+  [ 'ticket', ' Miranda bought a movie ticket and a bag of popcorn' ],
+  [
+    'second',
+    ' Gwen was awarded second place in the talent show competition'
+  ],
+  [
+    'ache',
+    " The ache in my tooth went away, so I didn't need to visit the dentist"
+  ],
+  [ 'delicious', ' That was a delicious chocolate cake' ],
+  [
+    'threatened',
+    ' If a mother bear thinks her cubs are threatened, she will fiercely protect them'
+  ]
+],
   D11: [[
     'puppies',
     ' Desiree loves playing with the puppies at the animal shelter'
