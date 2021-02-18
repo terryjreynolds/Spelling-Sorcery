@@ -1964,5 +1964,68 @@ E16: [
     " Mr. and Mrs. Rhodes said they're going to be out of town next week"
   ],
   [ 'there', ' How long is it going to take to get there' ]
+],
+E17: [
+  [
+    'wrapped',
+    ' Kayla wrapped a birthday present for her sister, April'
+  ],
+  [ 'preferred', ' Morgan preferred chocolate ice cream to vanilla' ],
+  [
+    'chatted',
+    ' Kai and her friend Tia chatted while they waited for the bus'
+  ],
+  [
+    'signed',
+    ' The football player signed a jersey for one of his fans'
+  ],
+  [
+    'shook',
+    ' Crystal shook the snow globe and watched the glitter swirl around'
+  ],
+  [
+    'understood',
+    ' The plumber understood what was wrong with my sink as soon as he looked at it'
+  ],
+  [ 'withdrew', ' Bruce withdrew some money from his bank account' ],
+  [ 'puzzled', " Mr. Ahmad was puzzled by his cat's strange behavior" ],
+  [
+    'belonged',
+    ' The diamond necklace belonged to a famous opera singer'
+  ],
+  [ 'managed', " Eduardo's parents managed a family restaurant" ],
+  [
+    'delayed',
+    " Georgie's flight was delayed by one hour because of heavy fog"
+  ],
+  [ 'visited', ' On Sunday we visited the science museum' ],
+  [ 'attacked', ' The tiger attacked its prey' ],
+  [ 'traveled', ' The salesman traveled a lot for his job' ],
+  [ 'studied', ' Maverick studied for his social studies test' ],
+  [ 'repaired', ' The mechanic repaired the engine in my car' ],
+  [ 'became', ' The caterpillar became a beautiful butterfly' ],
+  [ 'bought', ' Hillary bought a pair of sandals at the shoe store' ],
+  [
+    'awoke',
+    ' Cormac awoke to a thunderstorm in the middle of the night'
+  ],
+  [
+    'caught',
+    ' Danny went fishing with his grandpa and caught his first fish'
+  ],
+  [ 'quieter', ' Addison is quieter than her brother, Michael' ],
+  [
+    'quickly',
+    ' Lorenzo quickly changed his clothes for soccer practice'
+  ],
+  [
+    'chemical',
+    ' The scientist noticed that the chemical gave off a strange smell'
+  ],
+  [
+    'separated',
+    ' Corey separated the dirty clothes from the clean clothes on his bedroom floor'
+  ],
+  [ 'memorized', ' Kendra memorized the words to her favorite song' ]
 ]
 }
