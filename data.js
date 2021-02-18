@@ -220,6 +220,23 @@ B16: [
   [ 'where', " I can't remember where I put my keys" ],
   [ 'wear', ' Lukas will wear a costume to the party' ]
 ],
+B17: [
+  [ 'six', ' My cousin will turn six years old next month' ],
+  [ 'ask', ' Eric wants to ask his teacher a question' ],
+  [ 'ice', ' The ice in the cooler melted' ],
+  [ 'price', ' What is the price of this sweater' ],
+  [ 'slice', ' Triton put butter on a slice of bread' ],
+  [ 'city', ' Sebastian traveled to the city' ],
+  [ 'face', ' Ariel has chocolate on her face' ],
+  [ 'fence', ' Ursula painted the fence' ],
+  [ 'since', " We have been here since eight o'clock" ],
+  [ 'soft', " My mom's fuzzy jacket is very soft" ],
+  [ 'music', ' Mrs. Shelly is our music teacher' ],
+  [ 'cheek', ' Grandma kissed my cheek' ],
+  [ 'track', " Let's jog around the track" ],
+  [ 'place', ' Place your pencils on your desks' ],
+  [ 'circle', ' A cookie is shaped like a circle' ]
+],
 	C7: [[
     'toys',
     " Tirzah's favorite toys are her stuffed elephant and stuffed cat"
