@@ -35,6 +35,21 @@ A16: [
   [ 'prince', ' The prince will someday grow up to be a king' ],
   [ 'princess', ' Wendy had a princess cake for her birthday party' ]
 ],
+A17: [
+  [ 'stop', ' The car came to a complete stop at the red light' ],
+  [ 'snip', ' Sean used scissors to snip the tag off his new shirt' ],
+  [ 'spot', ' My kitten has a spot on her nose' ],
+  [ 'spin', ' Can you spin in a circle without falling down' ],
+  [ 'step', ' Evan was careful not to step in the puddle' ],
+  [ 'snug', ' Allie felt warm and snug in her pajamas' ],
+  [ 'brown', ' A grizzly bear is brown' ],
+  [ 'crab', ' I would like to order a crab dinner from the menu' ],
+  [
+    'snack',
+    ' Would you like to have celery and peanut butter for a snack'
+  ],
+  [ 'stick', ' Amy used a long stick to roast her marshmallow' ]
+],
     B7: [[ 'tree', ' We have a tall tree in our backyard' ],
   [ 'free', ' Harrison has a coupon for a free hot dog' ],
   [ 'keep', ' I always keep some money in my jacket pocket' ],
