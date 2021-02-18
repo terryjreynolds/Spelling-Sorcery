@@ -1376,6 +1376,96 @@ D16: [
     ' If you eat too many pieces of candy, you will get a stomachache'
   ]
 ],
+D17: [
+  [
+    'allowance',
+    ' John-David gets an allowance each week from his parents'
+  ],
+  [ 'eyebrow', ' Can you raise only one eyebrow' ],
+  [
+    'noisy',
+    " I cannot concentrate on what I'm reading when it's too noisy"
+  ],
+  [
+    'crowded',
+    " The room was so crowded that Cody couldn't move without bumping into someone"
+  ],
+  [
+    'fountain',
+    ' Some newly married couples in Chicago take wedding photos at Buckingham Fountain'
+  ],
+  [
+    'moisten',
+    " Liam's dad told him to moisten a paper towel and clean up the syrup on the counter"
+  ],
+  [
+    'tower',
+    ' You have to climb five hundred and forty-two steps to get to the top of the tower'
+  ],
+  [
+    'drowsy',
+    ' The allergy medication Ginger takes will sometimes make her feel drowsy'
+  ],
+  [
+    'cloudy',
+    ' Even though the sky is cloudy, it is not supposed to rain today'
+  ],
+  [
+    'chowder',
+    ' The local veterans association is having a chowder sale'
+  ],
+  [
+    'astounding',
+    ' The new office building was built so fast, that many people thought it was astounding'
+  ],
+  [ 'employ', ' How many people does the science museum employ' ],
+  [
+    'around',
+    " The fence around Mr. Hannigan's yard created a boundary for his property"
+  ],
+  [
+    'boundary',
+    " The fence around Mr. Hannigan's yard created a boundary for his property"
+  ],
+  [
+    'choice',
+    ' Whitney had to make a difficult choice: Did she want chocolate or vanilla ice cream'
+  ],
+  [
+    'royal',
+    ' Many paintings of the royal family hang in the halls of the palace'
+  ],
+  [ 'joining', ' Alessandra is thinking about joining the art club' ],
+  [
+    'appointment',
+    ' Please arrive fifteen minutes before your appointment to fill out some paperwork'
+  ],
+  [
+    'boiling',
+    ' Wait until the water is boiling before you add the rice'
+  ],
+  [
+    'thousand',
+    ' The first place prize for the marathon is a thousand dollars'
+  ],
+  [
+    'highest',
+    ' Out of all the kids in the class, Jamal can jump the highest'
+  ],
+  [
+    'happier',
+    ' Our dog, Bruno, is happier when he can go for long walks in the cooler weather'
+  ],
+  [ 'youngest', ' Charlotte is the youngest member of her family' ],
+  [
+    'cauliflower',
+    ' I found a new recipe for a tasty-looking cauliflower casserole'
+  ],
+  [
+    'enjoyment',
+    ' Grandma still receives a lot of enjoyment from playing the piano'
+  ]
+],
   E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
   [
     'handsome',
