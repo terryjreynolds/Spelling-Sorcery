@@ -50,6 +50,18 @@ A17: [
   ],
   [ 'stick', ' Amy used a long stick to roast her marshmallow' ]
 ],
+A18:[
+  [ 'who', ' Who ate the last cookie' ],
+  [ 'many', ' How many fingers do you have' ],
+  [ 'your', ' Can I borrow your pencil' ],
+  [ 'into', " Let's get into the car" ],
+  [ 'been', " It's been two weeks since I went to the park" ],
+  [ 'two', ' There are two ducks swimming in the pond' ],
+  [ 'press', ' Press this button to turn on the computer' ],
+  [ 'grade', ' Asha is in first grade' ],
+  [ 'their', ' Where did you put their jackets' ],
+  [ 'would', ' Would you like a banana' ]
+],
     B7: [[ 'tree', ' We have a tall tree in our backyard' ],
   [ 'free', ' Harrison has a coupon for a free hot dog' ],
   [ 'keep', ' I always keep some money in my jacket pocket' ],
@@ -251,6 +263,29 @@ B17: [
   [ 'track', " Let's jog around the track" ],
   [ 'place', ' Place your pencils on your desks' ],
   [ 'circle', ' A cookie is shaped like a circle' ]
+],
+B18: [
+  [ 'bank', ' Elliot and Kaitlyn put money in their piggy bank' ],
+  [
+    'sink',
+    ' If you toss a coin into the pond, it will sink to the bottom'
+  ],
+  [ 'blink', ' How many times do you blink your eyes in a minute' ],
+  [ 'band', " Ming plays the tuba in the school's marching band" ],
+  [ 'lend', ' Will you please lend me two dollars' ],
+  [ 'stand', " “Don't stand on the chair,” my mother yelled" ],
+  [ 'sang', ' Before the hockey game, we sang the national anthem' ],
+  [ 'lungs', ' My lungs are full of fresh air' ],
+  [ 'string', ' Celina tied a piece of string around the box' ],
+  [ 'long', ' Mackenzie went for a long walk' ],
+  [ 'to', ' Please come with me to the post office.' ],
+  [ 'too', ' Grandma cooked dinner, but I helped too' ],
+  [ 'two', ' Jamal and Davion are my two best friends' ],
+  [ 'found', ' I found a gold coin on the sidewalk' ],
+  [
+    'thank',
+    ' You should say “thank you” when someone pays you a compliment'
+  ]
 ],
 	C7: [[
     'toys',
@@ -887,6 +922,73 @@ C17:[
   [
     'threatened',
     ' If a mother bear thinks her cubs are threatened, she will fiercely protect them'
+  ]
+],
+C18:[
+  [
+    'plants',
+    " Jacob will water Mrs. Chopra's plants when she is away"
+  ],
+  [ 'batteries', ' Jin is going to need new batteries for his robot' ],
+  [ 'valleys', ' In between the mountains were lush, green valleys' ],
+  [
+    'coaches',
+    ' This year, both the football team and the hockey team have new coaches'
+  ],
+  [ 'babies', ' How many babies are in the nursery' ],
+  [
+    'countries',
+    ' The continent of South America has twelve countries'
+  ],
+  [ 'bakeries', ' Two new bakeries are opening up on Main Street' ],
+  [
+    'movies',
+    " Pick out a couple of movies you'd like to watch and we can choose one of them"
+  ],
+  [
+    'highways',
+    ' When Mr. Truman takes a road trip, he prefers to take highways instead of back roads'
+  ],
+  [
+    'trays',
+    ' Mrs. Henderson, the lunch lady, handed out trays to each student in the lunch line'
+  ],
+  [
+    'boxes',
+    ' Mr. Wallace brought home some empty boxes so he could use them for packing'
+  ],
+  [ 'cherries', " Melanie's favorite fruit to eat is cherries" ],
+  [
+    'matches',
+    ' Do you have a set of matches that we can use to light the candles on the cake'
+  ],
+  [
+    'glasses',
+    ' Ethan is going to need to wear glasses to help him see far distances'
+  ],
+  [
+    'beaches',
+    " Yesterday I watched a television show about Hawaii's best beaches"
+  ],
+  [
+    'bridge',
+    ' The gas station is on the other side of the bridge and past the traffic signal'
+  ],
+  [
+    'arrange',
+    ' We need to arrange a meeting so we can discuss the upcoming event'
+  ],
+  [
+    'courage',
+    ' Bradley showed courage when he stood up for his friend who was being bullied'
+  ],
+  [
+    'tomatoes',
+    ' This year I would like to grow tomatoes in my garden'
+  ],
+  [
+    'chimneys',
+    " Most of the houses on the Drew family's street have chimneys"
   ]
 ],
   D11: [[
