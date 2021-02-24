@@ -1583,6 +1583,93 @@ D17: [
     ' Grandma still receives a lot of enjoyment from playing the piano'
   ]
 ],
+D18: [
+  [
+    'mismatch',
+    ' Sometimes Raina likes to mismatch her socks just for fun'
+  ],
+  [
+    'recharge',
+    ' Before Mr. Peterson left the house, he needed to recharge his cell phone'
+  ],
+  [
+    'reappear',
+    ' Kendall watched the flickering light next door go out and then mysteriously reappear'
+  ],
+  [ 'unlike', ' It is unlike Helena to be late for anything' ],
+  [
+    'impatient',
+    " “Being impatient will not make the line move any faster,” Todd's dad told him"
+  ],
+  [
+    'mistaken',
+    ' I thought I saw a famous actor downtown today, but I must have been mistaken'
+  ],
+  [
+    'regroup',
+    " Let's take a five minute break and then we will regroup"
+  ],
+  [
+    'misplace',
+    ' Raymond was frustrated because he always seemed to misplace his glasses'
+  ],
+  [
+    'unequal',
+    ' Since Joe is taller than Danny, their heights are unequal'
+  ],
+  [ 'impossible', ' It is impossible to travel through time' ],
+  [
+    'removed',
+    ' Recently, our neighbors removed a large tree stump from their front yard'
+  ],
+  [
+    'unstable',
+    ' Uncle Dean moved the ladder to a different spot because it was unstable'
+  ],
+  [
+    'untangle',
+    ' On a windy day, it takes Alana extra time to untangle her hair'
+  ],
+  [
+    'unwrapped',
+    ' The children unwrapped the presents under the tree on Christmas morning'
+  ],
+  [
+    'rearrange',
+    ' Melinda had to rearrange her schedule so she could attend band practice'
+  ],
+  [ 'unhealthy', ' It is unhealthy to eat too much junk food' ],
+  [
+    'unable',
+    ' Samantha was unable to go to school because she was sick'
+  ],
+  [ 'review', ' Did you review for your math test on Friday' ],
+  [
+    'incorrect',
+    " Hosea didn't have a single incorrect answer on his last spelling test"
+  ],
+  [ 'unknown', ' The exact age of the ancient temple is unknown' ],
+  [
+    'firefighter',
+    ' Mr. Dobson has been a volunteer firefighter for fifteen years'
+  ],
+  [
+    'everybody',
+    ' If everybody attends the party, there will be thirty people in total'
+  ],
+  [
+    'windshield',
+    ' The windshield wipers are not working well, so I will need to replace them'
+  ],
+  [
+    'mispronounce',
+    ' Siobhan is not surprised when people mispronounce her name'
+  ],
+  [
+    'unbelievable',
+    ' The excuse Saul gave for not doing his homework was far-fetched and unbelievable'
+  ]
+],
   E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
   [
     'handsome',
@@ -2144,5 +2231,83 @@ E17: [
     ' Corey separated the dirty clothes from the clean clothes on his bedroom floor'
   ],
   [ 'memorized', ' Kendra memorized the words to her favorite song' ]
+],
+E18: [
+  [ 'observing', ' Levi is observing the ducks in the pond' ],
+  [
+    'appearing',
+    " A special guest will be appearing on Kelly's favorite television show tonight"
+  ],
+  [ 'copying', ' Aria practiced copying her name in cursive' ],
+  [ 'confusing', ' This math problem is very confusing' ],
+  [
+    'selecting',
+    " The judges will be selecting a winner for the singing competition on tonight's show"
+  ],
+  [
+    'agreeing',
+    ' Tammy and Tommy are agreeing to save their money for a puppy'
+  ],
+  [
+    'laughing',
+    " Niko couldn't stop laughing during the entire movie"
+  ],
+  [ 'scrubbing', ' Candace is scrubbing the kitchen floor' ],
+  [
+    'sounding',
+    ' Your cough is sounding better than it did yesterday'
+  ],
+  [
+    'squirting',
+    ' Brandon is squirting water from the hose at his brother, Bryce'
+  ],
+  [ 'mimicking', ' The toddler likes mimicking her older sister' ],
+  [
+    'complaining',
+    ' Mateo has been complaining that his stomach hurts all morning'
+  ],
+  [
+    'hiking',
+    " Tori's family went hiking in the woods on Saturday afternoon"
+  ],
+  [
+    'pleasing',
+    ' The apple pie baking in the oven created a pleasing aroma'
+  ],
+  [
+    'changing',
+    ' Soon the seasons will be changing from autumn to winter'
+  ],
+  [
+    'regulating',
+    ' The local school district is regulating its policy for using snow days'
+  ],
+  [
+    'panicking',
+    ' Salina was panicking when she thought she lost her glasses'
+  ],
+  [ 'exciting', ' Andreas thought the movie was very exciting' ],
+  [ 'munching', ' Larisa is munching on carrots and celery' ],
+  [
+    'frustrating',
+    " Leif found it frustrating to wait in the doctor's office for one hour"
+  ],
+  [
+    'petal',
+    ' A petal fell from the daisy in the vase onto the kitchen table'
+  ],
+  [
+    'peddle',
+    ' The lady tried to peddle her homemade jewelry at country craft shows'
+  ],
+  [
+    'whether',
+    " I don't know whether I'll have time to stop at the bank today"
+  ],
+  [ 'weather', ' The weather was foggy and cool last night' ],
+  [
+    'fascinating',
+    ' Joseph thought the outer space exhibit at the science museum was fascinating'
+  ]
 ]
 }
