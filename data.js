@@ -1026,6 +1026,67 @@ C18:[
     " Most of the houses on the Drew family's street have chimneys"
   ]
 ],
+C19: [
+  [ "I'd", "I'd really like to learn how to speak Chinese. "],
+  [ "I'm", "Phoebe said to Emma, “I'm going to go for a walk. Do you want to come?”" ],
+  [ "I've", "I've been planning to make an apple pie for the past couple of days. " ],
+  [
+    "isn't",
+    " Maribeth isn't interested in joining the volleyball team this year"
+  ],
+  [
+    "aren't",
+    " Mr. and Mrs. Khan aren't going to buy a new house until next year"
+  ],
+  [ "let's", " Let's go ice skating at the new rink downtown" ],
+  [ "what's", " “What's the movie about" ],
+  [ "how's", " “How's it going" ],
+  [
+    "haven't",
+    " The building plans for the new hospital haven't been finalized yet"
+  ],
+  [
+    "hasn't",
+    " The doctor hasn't been to Lucy's examination room yet; she's still waiting to see him"
+  ],
+  [ "where's", " Where's the new restaurant going to be located" ],
+  [
+    "we'll",
+    " “If you do well on your next report card, we'll go out for ice cream,” Tia's dad said"
+  ],
+  [
+    "couldn't",
+    " The man couldn't get his car out of the snow, so he needed to call a tow truck"
+  ],
+  [
+    "shouldn't",
+    " “You shouldn't cross the street before you look both ways,” Grandma warned Jason"
+  ],
+  [
+    "would've",
+    " I would've called you earlier, but my phone was charging"
+  ],
+  [
+    'motion',
+    ' Tyler reenacted what happened at the end of the hockey game in slow motion'
+  ],
+  [
+    'thought',
+    ' I thought it was very kind of Mrs. Hughes to make cookies for her new neighbor'
+  ],
+  [
+    'position',
+    ' When all the runners were in position, the signal was made to start the race'
+  ],
+  [
+    "weren't",
+    " The puppies weren't old enough to leave their mother, so we had to wait to adopt one"
+  ],
+  [
+    "doesn't",
+    " Doesn't the house look great with all the Christmas lights lit up"
+  ]
+],
   D11: [[
     'puppies',
     ' Desiree loves playing with the puppies at the animal shelter'
