@@ -62,6 +62,18 @@ A18:[
   [ 'their', ' Where did you put their jackets' ],
   [ 'would', ' Would you like a banana' ]
 ],
+A19: [
+  [ 'spoon', ' Ian ate his ice cream with a spoon' ],
+  [ 'moon', ' Did you see the moon in the sky last night' ],
+  [ 'food', ' My dog ate all of the food in her bowl' ],
+  [ 'cool', ' I felt a cool breeze' ],
+  [ 'noon', " Let's have lunch at noon" ],
+  [ 'zoo', ' Declan went to the zoo with his best friend' ],
+  [ 'stop', ' A stop sign is red with white letters' ],
+  [ 'snack', ' Sadie brought a snack to school' ],
+  [ 'tooth', ' Nina lost a tooth when she bit into the apple' ],
+  [ 'school', " Sejal's mom drove him to school today" ]
+],
     B7: [[ 'tree', ' We have a tall tree in our backyard' ],
   [ 'free', ' Harrison has a coupon for a free hot dog' ],
   [ 'keep', ' I always keep some money in my jacket pocket' ],
@@ -286,6 +298,29 @@ B18: [
     'thank',
     ' You should say “thank you” when someone pays you a compliment'
   ]
+],
+B19: [
+  [ 'book', ' Mariana is reading a book about dragons' ],
+  [ 'took', ' Harper and Jayden took a ten minute break' ],
+  [ 'good', ' Good morning, Mrs. Laurent' ],
+  [ 'crook', ' A person who steals things is a crook' ],
+  [
+    'tool',
+    ' Elijah stood on a stool so he could reach the top shelf'
+  ],
+  [ 'pool', ' Would you like to swim in the pool' ],
+  [ 'spoon', ' Logan ate his soup with a spoon' ],
+  [
+    'stood',
+    ' Elijah stood on a stool so he could reach the top shelf'
+  ],
+  [ 'noon', " Let's meet for lunch at noon" ],
+  [ 'loops', ' The path loops around the pond' ],
+  [ 'ice', ' Have you ever gone ice skating before' ],
+  [ 'city', ' We all rode the bus into the city' ],
+  [ 'soft', " My friend's kitty is very soft" ],
+  [ 'balloon', ' The baby laughed when the balloon popped' ],
+  [ 'cookies', ' Leah baked chocolate chip cookies' ]
 ],
 	C7: [[
     'toys',
