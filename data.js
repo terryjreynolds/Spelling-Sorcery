@@ -1766,6 +1766,93 @@ D18: [
     ' The excuse Saul gave for not doing his homework was far-fetched and unbelievable'
   ]
 ],
+D19: [
+  [ 'colorful', ' Amy painted a colorful picture of a rainbow' ],
+  [
+    'thoughtful',
+    ' Steven wrote thoughtful thank-you notes to everyone who came to his birthday party'
+  ],
+  [
+    'breathless',
+    ' Running outside in the freezing temperature made Nora feel breathless'
+  ],
+  [
+    'cheerful',
+    ' Our bus driver is one of the most cheerful people I know'
+  ],
+  [ 'wonderful', " “This is the most wonderful cake I've ever tasted" ],
+  [ 'spotless', ' Every room in your house looks spotless' ],
+  [
+    'hopeless',
+    " The situation isn't hopeless; we can find a solution"
+  ],
+  [
+    'creative',
+    ' Cynthia enjoys writing creative stories and reading them to her family'
+  ],
+  [
+    'memorable',
+    " Tia's most memorable holiday was the year her baby sister was born on Christmas Day"
+  ],
+  [
+    'active',
+    ' Owls are nocturnal animals, which means they are active during the night'
+  ],
+  [
+    'honorable',
+    ' Rhett did an honorable thing by turning in the wallet he found to his teacher'
+  ],
+  [
+    'breakable',
+    ' The dishes that Mrs. Price bought were not breakable'
+  ],
+  [
+    'likable',
+    " Mrs. Dobmire, the lunch lady, is one of the most likable people you'll ever meet"
+  ],
+  [
+    'miserable',
+    ' Miles had a terrible head cold that was making him feel miserable'
+  ],
+  [
+    'reasonable',
+    ' We have a reasonable amount of time to study for our test'
+  ],
+  [
+    'remarkable',
+    ' The fact that the local newspaper is one of the oldest in the country is remarkable'
+  ],
+  [
+    'massive',
+    ' A massive boulder fell from the side of the mountain and blocked the hiking trail'
+  ],
+  [
+    'adaptable',
+    " Jamie's family moves around a lot, so she has learned to become adaptable"
+  ],
+  [
+    'impressive',
+    ' The young figure skater performed an impressive routine at her first state competition'
+  ],
+  [
+    'careless',
+    ' One careless camper could be responsible for an enormous forest fire'
+  ],
+  [ 'around', ' Krishna ran around the backyard with his dog' ],
+  [
+    'thousand',
+    ' There were thousands of people at the art festival last weekend'
+  ],
+  [ 'drowsy', ' Coleman became drowsy after eating dinner' ],
+  [
+    'peaceful',
+    " Doesn't the night sky look peaceful with all the stars shining so brightly"
+  ],
+  [
+    'predictable',
+    " predictable The school bus comes to Lizzie's house at a predictable time each morning"
+  ]
+],
   E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
   [
     'handsome',
@@ -2404,6 +2491,81 @@ E18: [
   [
     'fascinating',
     ' Joseph thought the outer space exhibit at the science museum was fascinating'
+  ]
+],
+E19: [
+  [
+    'hawk',
+    ' The hawk flew in circles overhead, searching for something to eat'
+  ],
+  [
+    'laundry',
+    ' Mrs. Zimmerman did three loads of laundry this morning'
+  ],
+  [ 'frosted', ' Rochelle frosted cupcakes with her mom' ],
+  [
+    'lawful',
+    " What you're suggesting may be possible, but it definitely isn't lawful"
+  ],
+  [
+    'awfully',
+    " “It's snowing awfully hard outside,” Mark told his Dad"
+  ],
+  [ 'taught', ' Mr. Casimiro taught first grade for thirty-two years' ],
+  [ 'sauce', ' Mrs. Bianchi made a large pot of spaghetti sauce' ],
+  [
+    'installation',
+    ' How long will the installation of the new swimming pool take'
+  ],
+  [ 'daughter', " Mr. and Mrs. Lang's daughter is three years old" ],
+  [
+    'author',
+    ' Cai is reading the latest book by her favorite author'
+  ],
+  [
+    'alright',
+    ' “Is it alright if Sydney comes over for dinner tonight'
+  ],
+  [
+    'cause',
+    ' What would cause such a healthy plant to wither away after just a couple of days'
+  ],
+  [ 'coleslaw', ' Aunt Lillian makes the best coleslaw' ],
+  [
+    'scrawny',
+    ' The alley cat that comes around our house is looking pretty scrawny'
+  ],
+  [
+    'awning',
+    ' This summer Robert put up an awning on the back patio'
+  ],
+  [
+    'sausage',
+    " Melissa's dad cooked eggs, toast, and sausage for breakfast on Sunday morning"
+  ],
+  [ 'brawl', ' Two fans got into a brawl during the football game' ],
+  [
+    'thought',
+    " I thought the zoo opened at 9 am, but it turns out they're open at ten"
+  ],
+  [ 'cough', ' Aurora is recovering from an unpleasant cough' ],
+  [ 'officer', " Alexander's mom is a police officer" ],
+  [
+    'wrapped',
+    ' Dana wrapped a scarf around her neck before she went outside'
+  ],
+  [ 'preferred', ' Thomas preferred eating steak rather than seafood' ],
+  [
+    'chatted',
+    ' Jade and Melanie chatted during their lunch break at school'
+  ],
+  [
+    'faucet',
+    ' Benito turned off the faucet when he finished washing his hands'
+  ],
+  [
+    'applaud',
+    ' When the curtain closed, everyone in the audience knew it was time to applaud'
   ]
 ]
 }
