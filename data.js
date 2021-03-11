@@ -74,6 +74,18 @@ A19: [
   [ 'tooth', ' Nina lost a tooth when she bit into the apple' ],
   [ 'school', " Sejal's mom drove him to school today" ]
 ],
+A20: [
+  [ 'cook', ' Grandma likes to cook dinner for our family ' ],
+  [ 'foot', " Let's see if this shoe still fits on your foot" ],
+  [ 'wood', ' The dining room table is made of wood' ],
+  [ 'book', ' Tatiana borrowed a book from the library' ],
+  [ 'took', ' Nathan took his dog for a walk' ],
+  [ 'good', ' Flynn is a good kid' ],
+  [ 'who', ' Who is going to clean up this mess' ],
+  [ 'their', ' Nailah and James sang their favorite song' ],
+  [ 'stood', ' Mrs. Chan stood by the door and greeted her students' ],
+  [ 'shook', ' Mr. Ward shook my hand' ]
+],
     B7: [[ 'tree', ' We have a tall tree in our backyard' ],
   [ 'free', ' Harrison has a coupon for a free hot dog' ],
   [ 'keep', ' I always keep some money in my jacket pocket' ],
