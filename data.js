@@ -334,6 +334,22 @@ B19: [
   [ 'balloon', ' The baby laughed when the balloon popped' ],
   [ 'cookies', ' Leah baked chocolate chip cookies' ]
 ],
+B20: [
+  [ 'how', ' How did you fix my computer so quickly?' ],
+  [ 'now', " Now it's time to leave" ],
+  [ 'brown', ' A brown squirrel leaped into the tree' ],
+  [ 'cows', ' The cows were eating hay' ],
+  [ 'down', ' Please sit down' ],
+  [ 'about', ' I have about six dollars in my piggy bank' ],
+  [ 'house', ' The house needs a new roof' ],
+  [ 'couch', ' Have a seat on the couch' ],
+  [ 'mouth', ' Open your mouth so the dentist can see your teeth' ],
+  [ 'round', ' My mom cut the round pizza into slices' ],
+  [ 'stand', ' Stand up so I can see how tall you are' ],
+  [ 'long', ' How long have you been waiting here' ],
+  [ 'hour', ' I will be there in an hour' ],
+  [ 'shower', ' After I take a shower, I will go to school' ]
+],
 	C7: [[
     'toys',
     " Tirzah's favorite toys are her stuffed elephant and stuffed cat"
@@ -1097,6 +1113,73 @@ C19: [
   [
     "doesn't",
     " Doesn't the house look great with all the Christmas lights lit up"
+  ]
+],
+C20: [
+  [
+    'award',
+    ' Tony won an award for the most creative project at the science fair'
+  ],
+  [ 'cartoon', ' Giovanni likes to draw cartoon characters' ],
+  [
+    'charm',
+    ' Peter carries a shiny penny in his pocket as a good luck charm'
+  ],
+  [ 'swarm', ' A swarm of bees buzzed around the beehive' ],
+  [
+    'garden',
+    ' What kind of vegetables is Mrs. Chapin planting in her garden this year'
+  ],
+  [
+    'harvest',
+    ' Mrs. Martinez offered to bring apple cider to the harvest party at the youth center'
+  ],
+  [
+    'warned',
+    " Kirk's mother warned him to use a quiet voice as they walked around the museum"
+  ],
+  [
+    'warmth',
+    ' Miranda huddled up close to the fireplace and enjoyed the warmth of the fire'
+  ],
+  [
+    'guard',
+    " Andre's brother works as a security guard at the airport"
+  ],
+  [
+    'reward',
+    ' When the Toscano family lost their cat, they put up fliers and offered a reward'
+  ],
+  [
+    'quarter',
+    ' “Can I have a quarter to put into the gumball machine'
+  ],
+  [
+    'toward',
+    ' The runaway vegetable cart was zooming toward a brick wall until—BOOM'
+  ],
+  [
+    'carpet',
+    ' Today a new carpet is being installed in the school library'
+  ],
+  [
+    'alarm',
+    " Every morning, Kelly's alarm clock goes off at 6 o'clock"
+  ],
+  [ 'starving', " “I'm starving" ],
+  [
+    'countries',
+    ' How many countries are there on the continent of Asia'
+  ],
+  [
+    'glasses',
+    ' I took all the clean glasses out of the dishwasher and put them in the cupboard'
+  ],
+  [ 'babies', ' The babies are six months and eight months old' ],
+  [ 'sergeant', " Edison's Uncle Bart was a sergeant in the Army" ],
+  [
+    'argument',
+    " Let's not have an argument over who is going to take out the trash"
   ]
 ],
   D11: [[
@@ -1865,6 +1948,96 @@ D19: [
     " predictable The school bus comes to Lizzie's house at a predictable time each morning"
   ]
 ],
+D20: [
+  [
+    'porcupine',
+    ' A porcupine is a mammal with sharp quills on its body'
+  ],
+  [
+    'afford',
+    ' If you save up for your new bicycle, you may be able to afford to buy it this summer'
+  ],
+  [
+    'morning',
+    ' What time do you wake up in the morning to get ready for school'
+  ],
+  [
+    'argue',
+    ' The sisters sometimes argue when they disagree, but most of the time they get along'
+  ],
+  [
+    'apartment',
+    " When Suresh's sister got her first job after college, she moved into her own apartment"
+  ],
+  [ 'urgent', ' Gary opened the email that said, “Urgent' ],
+  [
+    'splurge',
+    ' Before you splurge on that expensive toy, think of how long it took to earn the money'
+  ],
+  [
+    'circular',
+    ' Kristen and her friends swam in a circular direction, trying to make a whirlpool'
+  ],
+  [
+    'search',
+    ' The scavenger hunt will require teams to search around the city for clues'
+  ],
+  [ 'sharpen', ' Donny needs to sharpen his pencil' ],
+  [
+    'purse',
+    ' Diana bought a black leather purse at a second-hand shop'
+  ],
+  [
+    'creature',
+    ' The scary creature you saw last night was only the pile of clothes you left on your floor'
+  ],
+  [
+    'picture',
+    ' Lindsay wore the necklace she got for her birthday for picture day at school'
+  ],
+  [
+    'according',
+    ' Answer the question according to what you read in the article'
+  ],
+  [ 'tomorrow', ' Tomorrow is the last day of the bake sale' ],
+  [ 'pardon', ' “Pardon me,” means the same thing as “Excuse me' ],
+  [
+    'modern',
+    ' Did you like the modern art exhibit we saw in the art gallery'
+  ],
+  [
+    'nature',
+    " Josie's grandma likes to sit on a park bench and listen to the sounds of nature"
+  ],
+  [
+    'service',
+    " Jordan's older brother has given six years of military service"
+  ],
+  [
+    'surround',
+    " The music of the symphony orchestra will surround concert-goers at tonight's show"
+  ],
+  [
+    'unequal',
+    ' Lu-Ting observed that the hair dresser cut her hair at unequal lengths'
+  ],
+  [
+    'rearrange',
+    ' Our teacher likes to rearrange the classroom desks throughout the year'
+  ],
+  [
+    'incorrect',
+    ' Drew only had one incorrect answer on his math test'
+  ],
+  [
+    'permanent',
+    ' A scar is a permanent mark left on the skin from an injury'
+  ],
+  [
+    'emergency',
+    ' Cars on the road are supposed to pull over to let emergency vehicles go by'
+  ]
+],
   E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
   [
     'handsome',
@@ -2578,6 +2751,93 @@ E19: [
   [
     'applaud',
     ' When the curtain closed, everyone in the audience knew it was time to applaud'
+  ]
+],
+E20: [
+  [
+    'dinosaur',
+    " Evan's little brother likes to wear his dinosaur pajamas"
+  ],
+  [ 'magazine', ' Brenda is the editor of a gardening magazine' ],
+  [
+    'paragraph',
+    ' Write a paragraph about your favorite pizza toppings'
+  ],
+  [ 'tomorrow', ' Tomorrow Karina has softball practice after school' ],
+  [
+    'accident',
+    ' When I tried to call my doctor, I realized I called the wrong number by accident'
+  ],
+  [
+    'faithfully',
+    ' Grandma faithfully tends all the plants in her garden throughout the summer'
+  ],
+  [
+    'reaction',
+    " Jaylen was excited to see his mom's reaction when she opened her birthday gift"
+  ],
+  [
+    'syllable',
+    ' Name three words that only have one syllable in them'
+  ],
+  [
+    'probably',
+    ' Mr. Fernandez is probably going to take off of work the day before Thanksgiving'
+  ],
+  [
+    'company',
+    ' The furniture company offered us a promotion on our new dining room table'
+  ],
+  [
+    'elephant',
+    ' Did you know that the elephant is one of the most intelligent animals on earth'
+  ],
+  [ 'artistic', ' Irene is a very artistic woman' ],
+  [
+    'department',
+    ' If you want to buy fresh herbs at the grocery store, look in the produce department'
+  ],
+  [
+    'however',
+    ' Our class was going to have a science test Friday; however, it was moved to Monday'
+  ],
+  [
+    'area',
+    ' The school library has a special area called the “reading corner'
+  ],
+  [
+    'miracle',
+    " “It's a miracle you're out of bed before 9 am on a Saturday"
+  ],
+  [ 'exercise', " Nathaniel's favorite form of exercise is swimming" ],
+  [
+    'dangerous',
+    " Charlie's parents told him that riding his bike without a helmet is dangerous"
+  ],
+  [
+    'crocodile',
+    ' Do you know how to tell the difference between an alligator and a crocodile'
+  ],
+  [
+    'celebrate',
+    ' In our family, we celebrate both Christmas and Hanukkah'
+  ],
+  [
+    'panicking',
+    ' Chanita began panicking when she thought she lost her purse'
+  ],
+  [
+    'creating',
+    " The neighbors' loud music was creating a disturbance to people around them"
+  ],
+  [ 'munching', ' Alberta is munching on a chocolate chip cookie' ],
+  [
+    'sanitize',
+    ' Mrs. Graham took a few minutes to sanitize all the desks in her classroom after school'
+  ],
+  [
+    'regulate',
+    ' Every sport has rules to regulate how the game is played'
   ]
 ]
 }
