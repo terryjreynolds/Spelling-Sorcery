@@ -26,6 +26,10 @@ img {
   width: 30%;
   margin: 0 auto;
 }
+.dropdown-menu {
+  max-height: 400px;
+  overflow-y: auto;
+}
 #pageTitle {
   display: flex;
   flex-direction: row;

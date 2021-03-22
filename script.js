@@ -74,6 +74,8 @@ setInitialFocus = () => {
 }
 //dynamically constructs a list of buttons, one for each list word of list chosen
 makeDictationButtons = (currentList) => {
+  console.log("im in makeDictationButtons")
+  console.log('currentList:', currentList);
   let numButtons = Object.keys(wordData[currentList]);
 console.log('numButtons', numButtons);
   //clear out any pre-existing buttons
