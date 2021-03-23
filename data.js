@@ -86,6 +86,21 @@ A20: [
   [ 'stood', ' Mrs. Chan stood by the door and greeted her students' ],
   [ 'shook', ' Mr. Ward shook my hand' ]
 ],
+A21: [
+  [ 'tree', ' Kyle climbed the tree in his backyard' ],
+  [ 'green', ' My favorite color is green' ],
+  [ 'tea', ' You are invited to my tea party' ],
+  [ 'read', ' We will read a story about a mouse' ],
+  [ 'bee', ' The bumble bee is eating nectar' ],
+  [ 'heat', ' Do you feel the heat from the fire' ],
+  [
+    'cool',
+    ' I need to let my hot chocolate cool down before I drink it'
+  ],
+  [ 'noon', " Let's eat lunch at noon" ],
+  [ 'sheet', ' Dad put a clean sheet on the bed' ],
+  [ 'please', ' Please help me clean up the kitchen' ]
+],
     B7: [[ 'tree', ' We have a tall tree in our backyard' ],
   [ 'free', ' Harrison has a coupon for a free hot dog' ],
   [ 'keep', ' I always keep some money in my jacket pocket' ],
@@ -350,7 +365,25 @@ B20: [
   [ 'hour', ' I will be there in an hour' ],
   [ 'shower', ' After I take a shower, I will go to school' ]
 ],
-	C7: [[
+B21: [
+  [ "can't", " Anna can't tie her shoes by herself" ],
+  [ "won't", " I won't help you with your homework" ],
+  [ "don't", " Don't you think it is about time for bed" ],
+  [ "wasn't", " We went to Christoff's house, but he wasn't home" ],
+  [ "I'll", "I'll come with you to Elsas house"],
+  [ "we'll", " We'll make a card for our friend" ],
+  [ "you'll", " You'll love the dinner I made for you" ],
+  [ "you'd", " You'd love ice skating if you tried it" ],
+  [ "we'd", " We'd looked everywhere for the missing kitten" ],
+  [ "we've", " We've rented a carpet cleaner" ],
+  [ 'good', " That's a very good idea" ],
+  [ 'stood', ' I stood at the bus stop for about fifteen minutes' ],
+  [ 'tool', ' Dad dropped a tool when he was working on the car' ],
+  [ "hasn't", " Hasn't anyone read this book yet" ],
+  [ "doesn't", " Olaf doesn't like cold weather" ]
+],
+C7: [
+  [
     'toys',
     " Tirzah's favorite toys are her stuffed elephant and stuffed cat"
   ],
@@ -1180,6 +1213,62 @@ C20: [
   [
     'argument',
     " Let's not have an argument over who is going to take out the trash"
+  ]
+],
+
+C21: [
+  [
+    'swimmer',
+    ' Madison wants to be a professional swimmer when she grows up'
+  ],
+  [ 'teacher', ' Devin wants to be a teacher when he gets older' ],
+  [
+    'author',
+    ' The author will be at the local bookstore to sign copies of her new book'
+  ],
+  [
+    'sailor',
+    ' Brady pretended to be a shipwrecked sailor who landed on a deserted island'
+  ],
+  [ 'worker', ' Lizzie is a very hard worker' ],
+  [ 'dollar', ' “Do you have a dollar I could borrow' ],
+  [
+    'nectar',
+    ' A butterfly drinks the nectar from flowers as its food source'
+  ],
+  [
+    'visitor',
+    ' The mouse in my cupboard was an unexpected—and unwelcome—visitor in my house'
+  ],
+  [ 'clever', ' Our new puppy is very clever' ],
+  [
+    'horror',
+    ' “You kids are too young to watch horror movies,” Grandma told David and Sam'
+  ],
+  [ 'humor', " Amelia's dad has a really good sense of humor" ],
+  [ 'singer', ' The singer has an incredible voice' ],
+  [
+    'mayor',
+    ' The mayor gave an award to a group of students for their community service'
+  ],
+  [ 'vinegar', ' Mrs. Peach added white vinegar to the recipe' ],
+  [ 'inventor', ' Benjamin Franklin was an American inventor' ],
+  [
+    "haven't",
+    " I haven't decided what I'd like to order from the menu"
+  ],
+  [
+    "they're",
+    " Do you know if Mr. and Mrs. Barrow said they're coming to the party"
+  ],
+  [
+    "would've",
+    " I would've called to tell you I was running late, but I couldn't find my phone"
+  ],
+  [ 'refrigerator', ' The milk goes in the refrigerator' ],
+  [
+    'caterpillar',
+    ' A caterpillar will someday turn into a butterfly'
   ]
 ],
   D11: [[
@@ -2038,6 +2127,84 @@ D20: [
     ' Cars on the road are supposed to pull over to let emergency vehicles go by'
   ]
 ],
+D21: [
+  [ 'muscle', ' Lucy strained a muscle during cheerleading practice' ],
+  [
+    'doubt',
+    " I doubt that we're going to have time to go to the library this evening"
+  ],
+  [
+    'subtle',
+    " A subtle change in Peter's mood suggested that he was upset about something"
+  ],
+  [ 'autumn', " Autumn is Jason's favorite season" ],
+  [
+    'column',
+    ' A column of smoke rose from the chimney of the small cabin'
+  ],
+  [
+    'debris',
+    ' The volunteer club spent the day picking up debris on the school grounds'
+  ],
+  [ 'ballet', ' April has been taking ballet classes for four years' ],
+  [
+    'soften',
+    ' Kalina placed the butter in the microwave for thirty seconds to soften'
+  ],
+  [ 'yolk', ' You will find a lot of protein in the yolk of an egg' ],
+  [ 'gourmet', ' When Susan grows up, she wants to be a gourmet chef' ],
+  [
+    'castle',
+    ' The most beautiful castle I ever saw was in the German countryside'
+  ],
+  [
+    'answer',
+    ' The social studies test had three short answer questions on it'
+  ],
+  [
+    'salmon',
+    ' Alejandro caught a salmon when he was fishing in Alaska'
+  ],
+  [ 'whistle', " Frankie's grandpa is teaching him how to whistle" ],
+  [ 'buffet', ' The hotel offers a breakfast buffet for its guests' ],
+  [
+    'wrestle',
+    ' The boys that Maya babysits on the weekend like to wrestle with each other'
+  ],
+  [
+    'knowledge',
+    " Stacy's dad has a lot of knowledge about ancient Rome"
+  ],
+  [
+    'daughter',
+    " Mrs. McMaster's daughter will graduate from college this spring"
+  ],
+  [
+    'plumber',
+    " Ismael's dad called a plumber to fix a leaking pipe in the basement"
+  ],
+  [
+    'cupboard',
+    ' Would you see if we have any baking powder in the cupboard'
+  ],
+  [
+    'breathless',
+    ' The view of the ocean from his hotel room left Carter breathless'
+  ],
+  [ 'active', ' Tom has a very active lifestyle' ],
+  [
+    'wonderful',
+    ' Our trip to Greece was the most wonderful vacation our family ever went on'
+  ],
+  [
+    'handsome',
+    ' The actor who plays the hero in the film is very handsome'
+  ],
+  [
+    'yacht',
+    ' Victor dreams of owning a million-dollar yacht someday'
+  ]
+],
   E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
   [
     'handsome',
@@ -2838,6 +3005,102 @@ E20: [
   [
     'regulate',
     ' Every sport has rules to regulate how the game is played'
+  ]
+],
+E21 : [
+  [
+    'librarian',
+    ' The school librarian helped me find a book about medieval castles'
+  ],
+  [
+    'understanding',
+    ' Marsha is a very kind and understanding person'
+  ],
+  [
+    'alphabetize',
+    ' Kyle wants to alphabetize the books on his bookshelf'
+  ],
+  [
+    'impossible',
+    " It might be hard to finish our project in time, but it's not impossible"
+  ],
+  [
+    'patriotic',
+    ' On Independence Day, we listened to patriotic music'
+  ],
+  [
+    'experience',
+    ' Samuel has five years of experience working as a lifeguard'
+  ],
+  [
+    'reservation',
+    ' I called the restaurant and made a dinner reservation for eight people'
+  ],
+  [
+    'discovery',
+    ' The divers made quite an amazing discovery: they found a shipwreck'
+  ],
+  [
+    'regulation',
+    ' Some people think we need better regulation of our local government'
+  ],
+  [
+    'anonymous',
+    " The author of the children's story wanted to remain anonymous"
+  ],
+  [
+    'disagreement',
+    ' Carter and Malik agreed not to shout whenever they had a disagreement'
+  ],
+  [
+    'disillusion',
+    ' Dylan had a look of disillusion on his face when his quarters got stuck in the vending machine'
+  ],
+  [
+    'contribution',
+    " Rida's family made a contribution to her school's food drive"
+  ],
+  [ 'resolution', " Did you make a New Year's resolution" ],
+  [
+    'institution',
+    ' The Institution for the Blind is on Main Street downtown'
+  ],
+  [
+    'salutations',
+    ' Salutations are greetings that you use to begin a letter'
+  ],
+  [ 'obedient', ' Aiden trained his dog to be very obedient' ],
+  [
+    'personally',
+    " Personally, it doesn't matter where we go to eat dinner"
+  ],
+  [
+    'automatic',
+    " Fiona's parents bought an automatic starter for their car"
+  ],
+  [
+    'invisible',
+    ' What would happen if you turned invisible for one day'
+  ],
+  [
+    'installation',
+    ' The contractor told Mr. Cruz how much it would cost for the installation of a new roof'
+  ],
+  [
+    'sausage',
+    " Last night Carmen's family had Italian sausage for dinner"
+  ],
+  [
+    'cough',
+    " Alana covered her cough so that she wouldn't spread germs"
+  ],
+  [
+    'conservative',
+    ' Annie ran a conservative campaign for class president'
+  ],
+  [
+    'temperature',
+    ' The temperature outside is sixty-two degrees Fahrenheit'
   ]
 ]
 }
