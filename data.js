@@ -101,6 +101,21 @@ A21: [
   [ 'sheet', ' Dad put a clean sheet on the bed' ],
   [ 'please', ' Please help me clean up the kitchen' ]
 ],
+A22: [
+  [ 'goat', ' Dakota fed the goat in the barn' ],
+  [ 'own', ' Magdalen has her own bike now' ],
+  [ 'boat', " We went for a ride on Uncle Ken's boat" ],
+  [ 'mow', ' Naomi will mow the lawn after lunch' ],
+  [ 'bow', ' The gift has a big bow on top' ],
+  [ 'coat', ' Wear a warm coat when you go outside' ],
+  [ 'cook', ' Gage will cook dinner for us tomorrow' ],
+  [
+    'good',
+    ' If you find a four-leaf clover, you will have good luck'
+  ],
+  [ 'toast', ' Grandpa likes to put jelly on his toast' ],
+  [ 'yellow', ' Have you ever eaten a yellow apple' ]
+],
     B7: [[ 'tree', ' We have a tall tree in our backyard' ],
   [ 'free', ' Harrison has a coupon for a free hot dog' ],
   [ 'keep', ' I always keep some money in my jacket pocket' ],
@@ -381,6 +396,26 @@ B21: [
   [ 'tool', ' Dad dropped a tool when he was working on the car' ],
   [ "hasn't", " Hasn't anyone read this book yet" ],
   [ "doesn't", " Olaf doesn't like cold weather" ]
+],
+B22: [
+  [ 'car', 'Emmanuel got a toy car for his birthday' ],
+  [ 'are', ' Are you the youngest child in your family?' ],
+  [ 'hard', ' That was a hard math test' ],
+  [ 'start', " Sal was late to work because his truck wouldn't start" ],
+  [ 'jar', ' Mayonnaise is usually sold in a jar' ],
+  [ 'cord', ' Gregory plugged the cord into the wall' ],
+  [ 'more', ' Oscar bought more bananas at the store' ],
+  [ 'store', ' Clara went to the grocery store' ],
+  [
+    'fork',
+    ' Do you eat pizza with a fork, or do you pick it up with your hands'
+  ],
+  [ 'sports', ' What sports do you like to play' ],
+  [ 'about', ' I have about fifty cents in my pocket' ],
+  [ 'down', ' My pen is down on the floor' ],
+  [ 'round', ' A globe and a baseball are both round objects' ],
+  [ 'forward', ' Absalom is looking forward to his vacation' ],
+  [ 'party', ' Will you come to my birthday party' ]
 ],
 C7: [
   [
@@ -1347,6 +1382,76 @@ C21: [
     'opportunities',
     ' If you join an after school club, you will have many opportunities to meet new friends'
   ]],
+  C22: [
+  [
+    'disappear',
+    ' The magician made the white rabbit disappear from sight'
+  ],
+  [
+    'dishonest',
+    ' The businessman was fired from his job for being dishonest'
+  ],
+  [
+    'reheat',
+    " You might need to reheat the soup because it isn't very warm"
+  ],
+  [
+    'unbutton',
+    " The little boy needed his father's help to unbutton his jacket"
+  ],
+  [
+    'disagree',
+    ' You think cell phones should be banned from school, but I disagree with you'
+  ],
+  [
+    'unable',
+    ' I am unable to see clearly through all the fog outside'
+  ],
+  [
+    'rewrite',
+    ' Noel needed to rewrite the sentence so it made better sense'
+  ],
+  [ 'replay', ' Can you replay that song over again' ],
+  [
+    'uncover',
+    " Now that it's almost summer, we should uncover the swimming pool"
+  ],
+  [
+    'rewind',
+    " Years ago, people listened to music on cassette tapes, which you'd need to rewind"
+  ],
+  [
+    'react',
+    ' How do you think Aunt Mary Ann will react when we give her a surprise party'
+  ],
+  [
+    'until',
+    " Suneetha isn't going to join the school band until after basketball try-outs"
+  ],
+  [ 'dislike', ' “Is there any type of food that you dislike' ],
+  [
+    'replace',
+    ' Carter will need to use his allowance money to replace the window he broke while playing baseball'
+  ],
+  [
+    'unknown',
+    ' The cause of the fire is still unknown, according to the local fire department'
+  ],
+  [ 'toward', ' The snow clouds are moving toward the east' ],
+  [
+    'alarm',
+    ' When the fire alarm went off, all the students filed out of the school for the drill'
+  ],
+  [ 'garden', ' What kind of flowers are growing in your garden' ],
+  [
+    'discourage',
+    " Even though Austin's football team lost the championship, he didn't let it discourage him"
+  ],
+  [
+    'uncomfortable',
+    " I didn't buy the sweater because the fabric was itchy and uncomfortable"
+  ]
+],
   D12: [[ 'children', ' Lots of children are playing at the park today' ],
   [
     'patches',
@@ -2203,6 +2308,79 @@ D21: [
   [
     'yacht',
     ' Victor dreams of owning a million-dollar yacht someday'
+  ]
+],
+D22:
+[
+  [
+    'horse',
+    ' Brianna rode a horse for the first time when she was eight years old'
+  ],
+  [
+    'hoarse',
+    " David's voice was hoarse from cheering at the basketball game"
+  ],
+  [ 'close', ' The department store is going to close in ten minutes' ],
+  [
+    'clothes',
+    ' People who live in other cultures may wear different kinds of clothes than you do'
+  ],
+  [
+    'course',
+    ' At the spring festival, our gym teacher is setting up a large obstacle course'
+  ],
+  [
+    'coarse',
+    ' The rock I picked up in the field felt rough and coarse'
+  ],
+  [ 'chili', " Anna's dad makes the best chili she's ever tasted" ],
+  [ 'chilly', " “It's very chilly outside,” Mom said" ],
+  [ 'beat', ' learned how to count every beat' ],
+  [
+    'beet',
+    ' Tatiana looked at the purple beet on her plate and was doubtful she would like it'
+  ],
+  [ "I'll", "I think I'll go to bed early tonight"],
+  [
+    'aisle',
+    " “You'll find breakfast cereal in Aisle Five,” the grocery store clerk said"
+  ],
+  [
+    'cents',
+    ' Josiah found a dollar bill and a few cents in his pocket'
+  ],
+  [
+    'sense',
+    ' Looking both ways before you cross the road is an example of common sense'
+  ],
+  [
+    'seller',
+    ' Mr. Jones, the vegetable seller, has a large selection of lettuce'
+  ],
+  [
+    'cellar',
+    ' Will you grab some potatoes downstairs in the cellar, please'
+  ],
+  [ 'eight', ' Lamar is turning eight years old tomorrow' ],
+  [ 'ate', 'We ate every last piece of that delicious cherry pie' ],
+  [ 'need', " “You're going to need a jacket" ],
+  [ 'knead', 'Kayleys mom showed her how to knead the bread dough' ],
+  [
+    'tomorrow',
+    ' I hope we are going to have warm, sunny weather for the party tomorrow'
+  ],
+  [ 'morning', ' The sky has been threatening to rain all morning' ],
+  [
+    'nature',
+    ' Miss Paterson, our teacher, led us outside on a nature walk'
+  ],
+  [
+    'disgust',
+    ' Any type of bug will usually frighten and disgust Gracie'
+  ],
+  [
+    'discussed',
+    ' Irwin and Allen discussed their ideas for the team project'
   ]
 ],
   E11: [[ 'ballet', ' Alison is practicing for her ballet recital' ],
@@ -3101,6 +3279,90 @@ E21 : [
   [
     'temperature',
     ' The temperature outside is sixty-two degrees Fahrenheit'
+  ]
+],
+E22: [
+  [ 'cafeteria', ' Students eat lunch in the school cafeteria' ],
+  [
+    'curiosity',
+    ' The inventor was filled with curiosity about the world around him'
+  ],
+  [ 'elementary', ' Josh and Anna are both in elementary school' ],
+  [
+    'anniversary',
+    ' Mr. and Mrs. Isaacson are celebrating their tenth wedding anniversary'
+  ],
+  [
+    'diagonally',
+    ' The words in your word search puzzle may be hidden diagonally'
+  ],
+  [ 'organization', ' Mrs. Choshi runs a gardening organization' ],
+  [
+    'misunderstanding',
+    ' Once Rosy and Chloe talked about their misunderstanding, they felt much better'
+  ],
+  [
+    'congratulations',
+    " Mr. Swanson's retirement cake said “Congratulations"
+  ],
+  [
+    'unforgettable',
+    ' The vacation we took to Yosemite National Park was unforgettable'
+  ],
+  [ 'particularly', ' I am not particularly fond of frogs or toads' ],
+  [
+    'electricity',
+    " Turn off the lights when you don't need them, and you will save electricity"
+  ],
+  [
+    'appreciation',
+    ' Roscoe wrote a thank-you note to show his appreciation for his birthday gift'
+  ],
+  [
+    'classification',
+    ' Scientists have a classification system for animals and plants'
+  ],
+  [
+    'underestimate',
+    " Samantha didn't want to underestimate how much the dress was going to cost"
+  ],
+  [
+    'anticipation',
+    ' Ali looked forward to his birthday party with great anticipation'
+  ],
+  [ 'imagination', ' Lolita has an extraordinary imagination' ],
+  [
+    'university',
+    ' Rodney is hoping he will be accepted into his favorite university'
+  ],
+  [
+    'discrimination',
+    ' Discrimination is treating someone unfairly because they are different from you'
+  ],
+  [
+    'generosity',
+    ' Kierra is a person who is known for her generosity'
+  ],
+  [
+    'undeniable',
+    ' The talent of the artist who painted the portrait was undeniable'
+  ],
+  [
+    'dangerous',
+    " Arianna's parents told her it's dangerous to ride her scooter without a helmet"
+  ],
+  [ 'magazine', ' Which magazine are you reading' ],
+  [
+    'paragraph',
+    ' Write a paragraph about your favorite memory from summer vacation'
+  ],
+  [
+    'enthusiastic',
+    ' Ohan gave an enthusiastic shout when his mom said they were going to the zoo'
+  ],
+  [
+    'accumulation',
+    ' The total accumulation of rain during the thundershower was three inches'
   ]
 ]
 }
